@@ -1,0 +1,164 @@
+aid: salesforce-commerce-cloud
+name: Salesforce Commerce Cloud
+description: >-
+  Salesforce Commerce Cloud (formerly Demandware) is an enterprise commerce
+  platform supporting B2C and B2B storefronts, order management, product
+  content, and headless commerce experiences. Commerce Cloud exposes two
+  REST API products: the legacy Open Commerce API (OCAPI) and the modern
+  Salesforce Commerce API (SCAPI), a unified RAML-defined API family built
+  for headless commerce. SCAPI uses OAuth 2.0 via Salesforce Account Manager
+  and groups APIs into Shopper, Data, and Admin tiers.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Commerce
+  - E-Commerce
+  - Headless Commerce
+  - Salesforce
+  - B2C Commerce
+  - B2B Commerce
+  - Demandware
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: salesforce-commerce-cloud:scapi
+    name: Salesforce Commerce API (SCAPI)
+    description: >-
+      Modern REST API family for B2C Commerce Cloud built on a unified
+      RAML specification, organized into Shopper, Data, and Admin APIs
+      for headless commerce. Authentication uses OAuth 2.0 via Salesforce
+      Account Manager (SLAS for shopper flows). Custom APIs allow
+      developers to publish their own endpoints under the SCAPI framework
+      using an OAS 3.0 schema contract.
+    humanURL: https://developer.salesforce.com/docs/commerce/commerce-api/overview
+    baseURL: https://<short-code>.api.commercecloud.salesforce.com
+    tags:
+      - SCAPI
+      - Headless Commerce
+      - Shopper API
+      - Data API
+      - Admin API
+      - OAuth 2.0
+    properties:
+      - type: Documentation
+        url: https://developer.salesforce.com/docs/commerce/commerce-api/overview
+      - type: API References
+        url: https://developer.salesforce.com/docs/commerce/commerce-api/references
+      - type: API Explorer
+        url: https://api-explorer.commercecloud.salesforce.com
+      - type: Why Use SCAPI
+        url: https://developer.salesforce.com/docs/commerce/commerce-api/guide/why-use-scapi.html
+      - type: Custom APIs
+        url: https://developer.salesforce.com/docs/commerce/commerce-api/guide/custom-apis.html
+  - aid: salesforce-commerce-cloud:ocapi
+    name: Open Commerce API (OCAPI)
+    description: >-
+      Legacy REST API for B2C Commerce Cloud, organized into Shop API,
+      Data API, and Meta API. Authentication uses OAuth 2.0 via
+      Salesforce Account Manager. OCAPI is deprecated for new projects
+      in favor of SCAPI but remains supported on existing instances.
+    humanURL: https://developer.salesforce.com/docs/commerce/b2c-commerce/references
+    baseURL: https://<instance>.demandware.net/s/-/dw/data/v23_2
+    tags:
+      - OCAPI
+      - Shop API
+      - Data API
+      - Meta API
+      - Legacy
+    properties:
+      - type: Documentation
+        url: https://developer.salesforce.com/docs/commerce/b2c-commerce/references
+      - type: API Explorer
+        url: https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi/apiexplorer.html
+      - type: Usage Guide
+        url: https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi/apiusage.html
+
+common:
+  - type: Website
+    url: https://www.salesforce.com/products/commerce-cloud/
+  - type: Documentation
+    url: https://developer.salesforce.com/docs/commerce
+  - type: API Documentation
+    url: https://developer.salesforce.com/docs/commerce/commerce-api/overview
+  - type: API Explorer
+    url: https://api-explorer.commercecloud.salesforce.com
+  - type: Postman Collection
+    url: https://www.postman.com/salesforce-developers/salesforce-developers/documentation/1qkzgik/salesforce-commerce-b2c
+  - type: Pricing
+    url: https://www.salesforce.com/products/commerce-cloud/pricing/
+  - type: Sign Up
+    url: https://developer.salesforce.com/signup
+  - type: Trailhead
+    url: https://trailhead.salesforce.com/content/learn/modules/b2c-integration-approaches/b2c-explore-ocapi
+  - type: GitHub Organization
+    url: https://github.com/SalesforceCommerceCloud
+  - type: Support
+    url: https://help.salesforce.com/s/
+features:
+  - name: Shopper APIs
+    description: >-
+      Public-facing SCAPI endpoints for storefront experiences
+      including products, search, baskets, orders, and customers.
+  - name: Data APIs
+    description: >-
+      Administrative SCAPI endpoints for managing catalogs,
+      pricing, promotions, inventory, and content.
+  - name: Admin APIs
+    description: >-
+      SCAPI endpoints for platform configuration including
+      site preferences and operational tasks.
+  - name: Custom APIs
+    description: >-
+      Publish custom B2C Commerce scripts as REST endpoints under
+      the SCAPI framework using an OAS 3.0 contract.
+  - name: Headless Commerce
+    description: >-
+      Power headless storefronts, mobile apps, and marketplace
+      experiences via SCAPI without rendering the storefront on B2C.
+  - name: OAuth 2.0 via Account Manager
+    description: >-
+      Centralized OAuth 2.0 authorization through Salesforce
+      Account Manager with SLAS for guest and registered shoppers.
+solutions:
+  - name: Headless B2C Storefronts
+    description: >-
+      Build headless storefronts powered by SCAPI on PWA Kit,
+      Next.js, or other custom front-ends.
+  - name: Omnichannel Commerce
+    description: >-
+      Deliver commerce experiences across web, mobile, and
+      in-store touchpoints driven by the same SCAPI back-end.
+  - name: Marketplace and Partner Integrations
+    description: >-
+      Integrate B2C Commerce with marketplaces, ERP, OMS, and
+      fulfillment systems via SCAPI Data and Admin APIs.
+useCases:
+  - name: Catalog and Product Sync
+    description: >-
+      Sync products, variants, and pricing from PIM/ERP into
+      Commerce Cloud via SCAPI Data APIs.
+  - name: Order Orchestration
+    description: >-
+      Push orders to OMS and update fulfillment state back to
+      Commerce Cloud via SCAPI APIs.
+  - name: Personalization and Search
+    description: >-
+      Power search, recommendations, and personalization with
+      Shopper API queries from headless front-ends.
+integrations:
+  - name: Salesforce Marketing Cloud
+    description: Connect commerce events to Marketing Cloud journeys
+  - name: Salesforce Service Cloud
+    description: Surface order and customer data in service cases
+  - name: PWA Kit
+    description: Salesforce reference headless storefront on top of SCAPI
+  - name: MuleSoft
+    description: API-led integration with ERP, OMS, and other backends
+  - name: Account Manager
+    description: Centralized OAuth 2.0 client credential management
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
