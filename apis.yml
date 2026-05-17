@@ -89,11 +89,11 @@ common:
     url: https://www.postman.com/salesforce-developers/salesforce-developers/documentation/1qkzgik/salesforce-commerce-b2c
   - type: Pricing
     url: https://www.salesforce.com/products/commerce-cloud/pricing/
-  - type: Sign Up
+  - type: SignUp
     url: https://developer.salesforce.com/signup
   - type: Trailhead
     url: https://trailhead.salesforce.com/content/learn/modules/b2c-integration-approaches/b2c-explore-ocapi
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/SalesforceCommerceCloud
   - type: Support
     url: https://help.salesforce.com/s/
