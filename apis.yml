@@ -21,7 +21,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/apis.yml
 created: '2026-05-11'
-modified: '2026-05-11'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
   - aid: salesforce-commerce-cloud:scapi
@@ -97,6 +97,9 @@ common:
     url: https://github.com/SalesforceCommerceCloud
   - type: Support
     url: https://help.salesforce.com/s/
+  - name: Agent Skills
+    url: https://github.com/SalesforceCommerceCloud/b2c-developer-tooling
+    type: AgentSkill
 features:
   - name: Shopper APIs
     description: >-
