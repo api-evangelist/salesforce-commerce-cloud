@@ -1,0 +1,365 @@
+openapi: 3.1.0
+info:
+  title: Salesforce Commerce API (SCAPI) - Shopper Subset
+  description: |
+    Representative subset of the Salesforce B2C Commerce API (SCAPI) covering
+    common Shopper endpoints (Login, Products, Search, Baskets, Orders,
+    Customers). SCAPI is a RAML-defined API family organized into Shopper,
+    Data, and Admin tiers. Shopper APIs authenticate via the Shopper Login
+    and API Access Service (SLAS) and other tiers use OAuth 2.0 via
+    Salesforce Account Manager.
+  version: "v1"
+  contact:
+    name: Salesforce Commerce Cloud
+    url: https://developer.salesforce.com/docs/commerce/commerce-api/overview
+servers:
+  - url: https://{shortCode}.api.commercecloud.salesforce.com
+    description: SCAPI per-realm endpoint
+    variables:
+      shortCode:
+        default: zzte-053
+        description: B2C Commerce Cloud realm short code
+security:
+  - bearerAuth: []
+paths:
+  /shopper/auth/v1/organizations/{organizationId}/oauth2/token:
+    post:
+      summary: Get an SLAS access token
+      description: |
+        Shopper Login and API Access Service (SLAS) OAuth 2.0 token endpoint.
+        Supports guest and authenticated shopper flows.
+      operationId: getSlasToken
+      parameters:
+        - name: organizationId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                grant_type:
+                  type: string
+                  enum: [client_credentials, authorization_code, refresh_token, refresh_token_pkce]
+                code:
+                  type: string
+                code_verifier:
+                  type: string
+                client_id:
+                  type: string
+                refresh_token:
+                  type: string
+                channel_id:
+                  type: string
+                usid:
+                  type: string
+      responses:
+        '200':
+          description: SLAS token response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  access_token:
+                    type: string
+                  refresh_token:
+                    type: string
+                  expires_in:
+                    type: integer
+                  token_type:
+                    type: string
+                  usid:
+                    type: string
+                  customer_id:
+                    type: string
+                  enc_user_id:
+                    type: string
+  /shopper/products/v1/organizations/{organizationId}/products:
+    get:
+      summary: Get products
+      description: Returns hydrated product information for one or more products.
+      operationId: getProducts
+      parameters:
+        - $ref: '#/components/parameters/OrganizationId'
+        - name: ids
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Comma-separated list of product IDs (up to 24).
+        - name: siteId
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: inventoryIds
+          in: query
+          schema:
+            type: string
+        - name: currency
+          in: query
+          schema:
+            type: string
+        - name: locale
+          in: query
+          schema:
+            type: string
+        - name: allImages
+          in: query
+          schema:
+            type: boolean
+        - name: perPricebook
+          in: query
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Product list result
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /shopper/products/v1/organizations/{organizationId}/products/{id}:
+    get:
+      summary: Get a product
+      operationId: getProduct
+      parameters:
+        - $ref: '#/components/parameters/OrganizationId'
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: siteId
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Product detail
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /shopper/search/v1/organizations/{organizationId}/product-search:
+    get:
+      summary: Product search
+      operationId: productSearch
+      parameters:
+        - $ref: '#/components/parameters/OrganizationId'
+        - name: siteId
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: q
+          in: query
+          schema:
+            type: string
+        - name: refine
+          in: query
+          schema:
+            type: array
+            items:
+              type: string
+        - name: sort
+          in: query
+          schema:
+            type: string
+        - name: currency
+          in: query
+          schema:
+            type: string
+        - name: locale
+          in: query
+          schema:
+            type: string
+        - name: offset
+          in: query
+          schema:
+            type: integer
+        - name: limit
+          in: query
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Product search result
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /shopper/baskets/v1/organizations/{organizationId}/baskets:
+    post:
+      summary: Create a basket
+      operationId: createBasket
+      parameters:
+        - $ref: '#/components/parameters/OrganizationId'
+        - name: siteId
+          in: query
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      responses:
+        '200':
+          description: Created basket
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /shopper/baskets/v1/organizations/{organizationId}/baskets/{basketId}:
+    get:
+      summary: Get a basket
+      operationId: getBasket
+      parameters:
+        - $ref: '#/components/parameters/OrganizationId'
+        - name: basketId
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: siteId
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Basket
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+    delete:
+      summary: Delete a basket
+      operationId: deleteBasket
+      parameters:
+        - $ref: '#/components/parameters/OrganizationId'
+        - name: basketId
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: siteId
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Basket deleted
+  /shopper/baskets/v1/organizations/{organizationId}/baskets/{basketId}/items:
+    post:
+      summary: Add items to a basket
+      operationId: addItemsToBasket
+      parameters:
+        - $ref: '#/components/parameters/OrganizationId'
+        - name: basketId
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: siteId
+          in: query
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: object
+                additionalProperties: true
+      responses:
+        '200':
+          description: Updated basket
+  /shopper/orders/v1/organizations/{organizationId}/orders:
+    post:
+      summary: Create an order from a basket
+      operationId: createOrder
+      parameters:
+        - $ref: '#/components/parameters/OrganizationId'
+        - name: siteId
+          in: query
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [basketId]
+              properties:
+                basketId:
+                  type: string
+      responses:
+        '200':
+          description: Created order
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+  /shopper/orders/v1/organizations/{organizationId}/orders/{orderNo}:
+    get:
+      summary: Get an order
+      operationId: getOrder
+      parameters:
+        - $ref: '#/components/parameters/OrganizationId'
+        - name: orderNo
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: siteId
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Order
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties: true
+components:
+  parameters:
+    OrganizationId:
+      name: organizationId
+      in: path
+      required: true
+      schema:
+        type: string
+      description: B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053).
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      description: |
+        OAuth 2.0 access token from SLAS (Shopper APIs) or Salesforce Account
+        Manager (Data and Admin APIs), sent as `Authorization: Bearer <token>`.
