@@ -1,0 +1,1432 @@
+"""
+Salesforce Commerce Cloud GraphQL Schema
+Conceptual schema derived from SCAPI (Salesforce Commerce API) and OCAPI REST APIs.
+Covers B2C Commerce headless commerce: catalog, pricing, promotions, cart, checkout,
+orders, customers, inventory, search, content, configuration, and Einstein.
+"""
+
+scalar DateTime
+scalar JSON
+
+# ---------------------------------------------------------------------------
+# Locale and Currency
+# ---------------------------------------------------------------------------
+
+type Locale {
+  id: ID!
+  name: String!
+  country: String
+  language: String
+  currency: Currency
+  isDefault: Boolean
+}
+
+type Currency {
+  code: ID!
+  name: String!
+  symbol: String
+  decimalDigits: Int
+}
+
+# ---------------------------------------------------------------------------
+# Catalog and Product
+# ---------------------------------------------------------------------------
+
+type Catalog {
+  id: ID!
+  name: String!
+  description: String
+  online: Boolean
+  categories(depth: Int): [Category!]!
+  products(limit: Int, offset: Int): ProductConnection!
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Category {
+  id: ID!
+  name: String!
+  description: String
+  parentCategory: Category
+  subCategories: [Category!]!
+  products(limit: Int, offset: Int): ProductConnection!
+  image: String
+  thumbnail: String
+  online: Boolean
+  sortOrder: Int
+  pageTitle: String
+  pageDescription: String
+  pageKeywords: String
+  customAttributes: JSON
+}
+
+type Product {
+  id: ID!
+  name: String!
+  description: String
+  longDescription: String
+  shortDescription: String
+  type: ProductType!
+  brand: String
+  ean: String
+  upc: String
+  unit: String
+  stepQuantity: Float
+  minOrderQuantity: Float
+  categories: [Category!]!
+  primaryCategory: Category
+  variants: [ProductVariant!]!
+  variationAttributes: [VariationAttribute!]!
+  images: [ProductImage!]!
+  primaryImage: ProductImage
+  price: Float
+  priceMax: Float
+  priceMin: Float
+  prices: [Price!]!
+  promotions: [Promotion!]!
+  inventory: InventoryRecord
+  online: Boolean
+  searchable: Boolean
+  pageTitle: String
+  pageDescription: String
+  pageKeywords: String
+  customAttributes: JSON
+  bundledProducts: [BundledProduct!]!
+  setProducts: [Product!]!
+  recommendations: [ProductRecommendation!]!
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+enum ProductType {
+  SIMPLE
+  VARIANT
+  MASTER
+  SET
+  BUNDLE
+  ITEM
+}
+
+type ProductVariant {
+  id: ID!
+  name: String
+  productId: String!
+  ean: String
+  upc: String
+  price: Float
+  prices: [Price!]!
+  variationValues: JSON
+  variationAttributes: [VariationAttributeValue!]!
+  images: [ProductImage!]!
+  inventory: InventoryRecord
+  online: Boolean
+  orderable: Boolean
+  customAttributes: JSON
+}
+
+type VariationAttribute {
+  id: ID!
+  name: String!
+  values: [VariationAttributeValue!]!
+  slicing: Boolean
+}
+
+type VariationAttributeValue {
+  value: String!
+  name: String
+  orderable: Boolean
+  description: String
+  image: ProductImage
+  swatchImage: ProductImage
+}
+
+type ProductImage {
+  title: String
+  alt: String
+  link: String!
+  disBaseLink: String
+  absURL: String
+}
+
+type BundledProduct {
+  product: Product!
+  quantity: Float!
+}
+
+type ProductRecommendation {
+  product: Product!
+  recommendationType: String
+}
+
+type ProductConnection {
+  total: Int!
+  limit: Int!
+  offset: Int!
+  items: [Product!]!
+}
+
+# ---------------------------------------------------------------------------
+# Price and Price Book
+# ---------------------------------------------------------------------------
+
+type PriceBook {
+  id: ID!
+  name: String!
+  description: String
+  currency: Currency!
+  online: Boolean
+  parentPriceBook: PriceBook
+  schedules: [Schedule!]!
+  prices(limit: Int, offset: Int): [Price!]!
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Price {
+  value: Float!
+  currency: String!
+  priceBook: PriceBook
+  quantity: Float
+  type: PriceType
+}
+
+enum PriceType {
+  LIST
+  SALE
+  MEMBER
+  TIERED
+}
+
+# ---------------------------------------------------------------------------
+# Promotions and Campaigns
+# ---------------------------------------------------------------------------
+
+type Campaign {
+  id: ID!
+  name: String!
+  description: String
+  enabled: Boolean
+  startDate: DateTime
+  endDate: DateTime
+  schedule: Schedule
+  promotions: [Promotion!]!
+  customerGroups: [CustomerGroup!]!
+  coupons: [Coupon!]!
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Promotion {
+  id: ID!
+  name: String!
+  description: String
+  calloutMsg: String
+  details: PromotionData
+  enabled: Boolean
+  exclusive: Boolean
+  promotionClass: PromotionClass
+  campaignId: String
+  campaign: Campaign
+  coupons: [Coupon!]!
+  qualifyingProducts: [Product!]!
+  schedule: Schedule
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+enum PromotionClass {
+  PRODUCT
+  SHIPPING
+  ORDER
+}
+
+type PromotionData {
+  condition: String
+  discountType: DiscountType
+  discountValue: Float
+  maxApplications: Int
+  applyToSale: Boolean
+  discountedProducts: [Product!]!
+  bonusProducts: [Product!]!
+}
+
+enum DiscountType {
+  PERCENTAGE
+  AMOUNT
+  FREE_SHIPPING
+  BUY_X_GET_Y
+  BONUS
+  FIXED_PRICE
+}
+
+type Coupon {
+  id: ID!
+  description: String
+  enabled: Boolean
+  code: String
+  codePrefix: String
+  usedCount: Int
+  singleCode: String
+  redemptionLimit: Int
+  redemptionLimitPerCustomer: Int
+  caseInsensitive: Boolean
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Schedule {
+  startDate: DateTime
+  endDate: DateTime
+  recurrence: String
+}
+
+# ---------------------------------------------------------------------------
+# Cart / Basket
+# ---------------------------------------------------------------------------
+
+type Cart {
+  id: ID!
+  customerId: String
+  customer: Customer
+  guestCheckout: Boolean
+  items: [CartItem!]!
+  productItems: [CartItem!]!
+  giftCertificateItems: [GiftCardItem!]!
+  couponItems: [CartCoupon!]!
+  promotions: [Promotion!]!
+  shippingItems: [ShippingItem!]!
+  priceAdjustments: [PriceAdjustment!]!
+  tax: CartTax
+  taxTotal: Float
+  productSubTotal: Float
+  productTotal: Float
+  shippingTotal: Float
+  shippingTotalTax: Float
+  adjustedShippingTotal: Float
+  orderTotal: Float
+  currency: String
+  locale: String
+  siteId: String
+  notes: [Note!]!
+  shipments: [Shipment!]!
+  paymentInstruments: [PaymentInstrument!]!
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type CartItem {
+  id: ID!
+  productId: String!
+  product: Product
+  productName: String
+  quantity: Float!
+  itemText: String
+  basePrice: Float
+  price: Float
+  priceAfterItemDiscount: Float
+  priceAfterOrderDiscount: Float
+  tax: Float
+  taxBasis: Float
+  shipmentId: String
+  priceAdjustments: [PriceAdjustment!]!
+  optionItems: [OptionItem!]!
+  bundledItems: [CartItem!]!
+  customAttributes: JSON
+}
+
+type CartTax {
+  totalTax: Float
+  taxTotal: Float
+  items: [TaxItem!]!
+}
+
+type TaxItem {
+  id: String!
+  tax: Float!
+  taxRate: Float!
+}
+
+type PriceAdjustment {
+  id: ID!
+  promotionId: String
+  promotionLink: String
+  couponCode: String
+  itemText: String
+  price: Float
+  appliedDiscount: JSON
+  manualAdjustment: Boolean
+}
+
+type CartCoupon {
+  code: String!
+  statusCode: String
+  valid: Boolean
+  couponItemId: String
+}
+
+type ShippingItem {
+  id: ID!
+  shipmentId: String
+  itemText: String
+  basePrice: Float
+  price: Float
+  tax: Float
+  taxBasis: Float
+  priceAdjustments: [PriceAdjustment!]!
+}
+
+type GiftCardItem {
+  id: ID!
+  amount: Float!
+  message: String
+  recipientEmail: String
+  recipientName: String
+  senderName: String
+}
+
+type GiftCard {
+  id: ID!
+  code: String!
+  balance: Float!
+  currency: String!
+  enabled: Boolean
+  maskedCode: String
+  statusCode: String
+  orderNo: String
+  createdAt: DateTime
+}
+
+type GiftCardItem {
+  id: ID!
+  amount: Float!
+  message: String
+  recipientEmail: String
+  recipientName: String
+  senderName: String
+}
+
+type Note {
+  id: ID!
+  text: String!
+  subject: String
+  createdAt: DateTime
+}
+
+type OptionItem {
+  id: ID!
+  optionId: String!
+  optionValueId: String!
+  price: Float
+}
+
+# ---------------------------------------------------------------------------
+# Shipment and Shipping
+# ---------------------------------------------------------------------------
+
+type Shipment {
+  id: ID!
+  shipmentNo: String
+  shippingAddress: Address
+  shippingMethod: ShippingMethod
+  shippingItems: [ShippingItem!]!
+  productItems: [CartItem!]!
+  giftMessage: String
+  giftBoxWrap: Boolean
+  trackingNumber: String
+  shippingStatus: String
+}
+
+type ShippingMethod {
+  id: ID!
+  name: String!
+  description: String
+  price: Float
+  currency: String
+  estimatedArrivalTime: String
+  online: Boolean
+  storePickupEnabled: Boolean
+  customAttributes: JSON
+}
+
+type ShippingOption {
+  shippingMethod: ShippingMethod!
+  price: Float!
+  applicableShippingPromotions: [Promotion!]!
+}
+
+# ---------------------------------------------------------------------------
+# Checkout and Order
+# ---------------------------------------------------------------------------
+
+type Checkout {
+  id: ID!
+  cart: Cart
+  customer: Customer
+  billingAddress: Address
+  paymentInstruments: [PaymentInstrument!]!
+  shipments: [Shipment!]!
+  orderTotal: Float
+  currency: String
+  status: CheckoutStatus
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+enum CheckoutStatus {
+  DRAFT
+  PAYMENT_PENDING
+  PAYMENT_AUTHORIZED
+  CONFIRMED
+  CANCELLED
+}
+
+type Order {
+  id: ID!
+  orderNo: String!
+  customerId: String
+  customer: Customer
+  status: OrderStatus!
+  productItems: [OrderItem!]!
+  giftCertificateItems: [GiftCardItem!]!
+  couponItems: [CartCoupon!]!
+  priceAdjustments: [PriceAdjustment!]!
+  shippingItems: [ShippingItem!]!
+  shipments: [OrderShipment!]!
+  billingAddress: Address
+  paymentInstruments: [OrderPayment!]!
+  orderTotal: Float
+  productSubTotal: Float
+  shippingTotal: Float
+  taxTotal: Float
+  adjustedMerchandizeTotalTax: Float
+  adjustedShippingTotalTax: Float
+  currency: String
+  locale: String
+  siteId: String
+  channelType: ChannelType
+  notes: [Note!]!
+  confirmationStatus: String
+  exportStatus: String
+  externalOrderStatus: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+enum OrderStatus {
+  CREATED
+  NEW
+  OPEN
+  COMPLETED
+  CANCELLED
+  REPLACED
+  FAILED
+}
+
+enum ChannelType {
+  STOREFRONT
+  CALLCENTER
+  MOBILE
+  API
+  MARKETPLACE
+}
+
+type OrderItem {
+  id: ID!
+  productId: String!
+  product: Product
+  productName: String
+  quantity: Float!
+  basePrice: Float
+  price: Float
+  priceAfterItemDiscount: Float
+  priceAfterOrderDiscount: Float
+  tax: Float
+  taxBasis: Float
+  shipmentId: String
+  priceAdjustments: [PriceAdjustment!]!
+  optionItems: [OptionItem!]!
+  customAttributes: JSON
+}
+
+type OrderPayment {
+  id: ID!
+  paymentMethodId: String
+  paymentMethod: PaymentMethod
+  amount: Float
+  amountAuthorized: Float
+  amountPaid: Float
+  amountRefunded: Float
+  paymentInstrumentId: String
+  creditCardToken: String
+  creditCardType: String
+  maskedGiftCertificateCode: String
+  bankRoutingNumber: String
+  paymentCard: PaymentCard
+  customAttributes: JSON
+}
+
+type OrderShipment {
+  id: ID!
+  shipmentNo: String
+  shippingAddress: Address
+  shippingMethod: ShippingMethod
+  productItems: [OrderItem!]!
+  trackingNumber: String
+  shippingStatus: OrderShipmentStatus
+  giftMessage: String
+}
+
+enum OrderShipmentStatus {
+  NOT_SHIPPED
+  PARTIALLY_SHIPPED
+  SHIPPED
+}
+
+# ---------------------------------------------------------------------------
+# Payment
+# ---------------------------------------------------------------------------
+
+type PaymentMethod {
+  id: ID!
+  name: String!
+  description: String
+  image: String
+  online: Boolean
+  cards: [PaymentCardType!]!
+  paymentProcessor: String
+  customAttributes: JSON
+}
+
+type PaymentCard {
+  number: String
+  maskedNumber: String
+  cardType: String
+  holder: String
+  expirationMonth: Int
+  expirationYear: Int
+}
+
+type PaymentCardType {
+  cardType: String!
+  name: String!
+  description: String
+}
+
+type PaymentInstrument {
+  id: ID!
+  paymentMethodId: String
+  amount: Float
+  paymentCard: PaymentCard
+  maskedGiftCertificateCode: String
+  bankRoutingNumber: String
+}
+
+# ---------------------------------------------------------------------------
+# Tax
+# ---------------------------------------------------------------------------
+
+type TaxCalculation {
+  orderId: String
+  orderTotal: Float
+  taxTotal: Float
+  currency: String
+  items: [TaxLineItem!]!
+}
+
+type TaxLineItem {
+  id: String!
+  taxAmount: Float!
+  taxRate: Float!
+  taxCode: String
+  jurisdiction: String
+}
+
+# ---------------------------------------------------------------------------
+# Customer
+# ---------------------------------------------------------------------------
+
+type Customer {
+  id: ID!
+  customerId: String!
+  customerNo: String
+  email: String!
+  firstName: String
+  lastName: String
+  login: String
+  gender: CustomerGender
+  birthday: String
+  phoneHome: String
+  phoneBusiness: String
+  phoneMobile: String
+  fax: String
+  enabled: Boolean
+  addresses: [CustomerAddress!]!
+  paymentInstruments: [PaymentInstrument!]!
+  customerGroups: [CustomerGroup!]!
+  orders(limit: Int, offset: Int): CustomerOrderConnection!
+  baskets: [CustomerBasket!]!
+  wishLists: [WishList!]!
+  preferences: JSON
+  customAttributes: JSON
+  createdAt: DateTime
+  updatedAt: DateTime
+  lastLoginAt: DateTime
+  lastModifiedAt: DateTime
+}
+
+enum CustomerGender {
+  MALE
+  FEMALE
+  NOT_SPECIFIED
+}
+
+type CustomerAddress {
+  id: ID!
+  addressId: String!
+  salutation: String
+  title: String
+  firstName: String
+  secondName: String
+  lastName: String
+  suffix: String
+  companyName: String
+  address1: String!
+  address2: String
+  address3: String
+  city: String!
+  stateCode: String
+  postalCode: String
+  countryCode: String!
+  phone: String
+  preferred: Boolean
+  postBox: String
+  customAttributes: JSON
+}
+
+type Address {
+  id: ID
+  salutation: String
+  title: String
+  firstName: String
+  secondName: String
+  lastName: String
+  suffix: String
+  companyName: String
+  address1: String!
+  address2: String
+  address3: String
+  city: String!
+  stateCode: String
+  postalCode: String
+  countryCode: String!
+  phone: String
+  postBox: String
+}
+
+type CustomerBasket {
+  basketId: ID!
+  customerId: String
+  basketType: String
+  currency: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type CustomerOrderConnection {
+  total: Int!
+  limit: Int!
+  offset: Int!
+  orders: [Order!]!
+}
+
+type CustomerGroup {
+  id: ID!
+  name: String!
+  description: String
+  rule: String
+  memberCount: Int
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type CustomerList {
+  id: ID!
+  name: String!
+  description: String
+  customerCount: Int
+  customers(limit: Int, offset: Int): [Customer!]!
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type WishList {
+  id: ID!
+  name: String!
+  description: String
+  public: Boolean
+  items: [WishListItem!]!
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type WishListItem {
+  id: ID!
+  product: Product
+  productId: String!
+  quantity: Float!
+  priority: Int
+  publicView: Boolean
+  purchasedQuantity: Float
+}
+
+# ---------------------------------------------------------------------------
+# Inventory
+# ---------------------------------------------------------------------------
+
+type InventoryList {
+  id: ID!
+  name: String!
+  description: String
+  default: Boolean
+  onOrder: Boolean
+  records(limit: Int, offset: Int): [InventoryRecord!]!
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type InventoryRecord {
+  id: ID!
+  productId: String!
+  product: Product
+  inventoryList: InventoryList
+  quantity: Float!
+  allocatedQuantity: Float
+  backorderable: Boolean
+  backorderQuantity: Float
+  onOrder: Boolean
+  preorderable: Boolean
+  preorderQuantity: Float
+  ats: Float
+  perpetual: Boolean
+  stockLevel: Float
+  turnover: Float
+  inStockDate: DateTime
+  customAttributes: JSON
+}
+
+type Inventory {
+  productId: String!
+  orderable: Boolean!
+  quantity: Float
+  stockLevel: Float
+}
+
+# ---------------------------------------------------------------------------
+# Search
+# ---------------------------------------------------------------------------
+
+type Search {
+  query: String!
+  locale: String
+  currency: String
+  total: Int!
+}
+
+type ProductSearch {
+  query: String!
+  total: Int!
+  hits: [ProductSearchHit!]!
+  refinements: [SearchRefinement!]!
+  selectedRefinements: JSON
+  sortOptions: [SortOption!]!
+  selectedSortingOption: String
+  limit: Int!
+  offset: Int!
+  searchPhraseSuggestions: SearchSuggestions
+  category: Category
+}
+
+type ProductSearchHit {
+  productId: String!
+  productName: String
+  product: Product
+  representedProduct: Product
+  variationAttributes: [VariationAttribute!]!
+  image: ProductImage
+  currency: String
+  price: Float
+  priceMax: Float
+  priceMin: Float
+  prices: [Price!]!
+  orderable: Boolean
+  hitType: String
+  relevance: Float
+}
+
+type ContentSearch {
+  query: String!
+  total: Int!
+  hits: [ContentSearchHit!]!
+  refinements: [SearchRefinement!]!
+  limit: Int!
+  offset: Int!
+}
+
+type ContentSearchHit {
+  id: String!
+  name: String
+  description: String
+  page: Page
+}
+
+type StoreSearch {
+  query: String
+  latitude: Float
+  longitude: Float
+  maxDistance: Float
+  total: Int!
+  stores: [Store!]!
+}
+
+type SearchRefinement {
+  attributeId: String!
+  label: String!
+  values: [SearchRefinementValue!]!
+}
+
+type SearchRefinementValue {
+  label: String!
+  value: String!
+  hitCount: Int
+  presentationId: String
+  values: [SearchRefinementValue!]!
+}
+
+type SortOption {
+  id: String!
+  label: String!
+}
+
+type SearchSuggestions {
+  suggestedPhrases: [SuggestedPhrase!]!
+  suggestedTerms: [SuggestedTerms!]!
+  productSuggestions: ProductSuggestions
+  categorySuggestions: CategorySuggestions
+}
+
+type SuggestedPhrase {
+  exactMatch: Boolean
+  phrase: String!
+}
+
+type SuggestedTerms {
+  originalTerm: String!
+  terms: [SuggestedTerm!]!
+}
+
+type SuggestedTerm {
+  completed: Boolean
+  corrected: Boolean
+  exactMatch: Boolean
+  value: String!
+}
+
+type ProductSuggestions {
+  products: [Product!]!
+}
+
+type CategorySuggestions {
+  categories: [Category!]!
+}
+
+# ---------------------------------------------------------------------------
+# Store
+# ---------------------------------------------------------------------------
+
+type Store {
+  id: ID!
+  name: String!
+  address1: String
+  address2: String
+  city: String
+  stateCode: String
+  postalCode: String
+  countryCode: String
+  phone: String
+  email: String
+  fax: String
+  latitude: Float
+  longitude: Float
+  distance: Float
+  distanceUnit: String
+  storeHours: String
+  storeEvents: String
+  storeLocatorEnabled: Boolean
+  inventoryId: String
+  image: String
+  posEnabled: Boolean
+  storePickupEnabled: Boolean
+  customAttributes: JSON
+}
+
+# ---------------------------------------------------------------------------
+# Site and Configuration
+# ---------------------------------------------------------------------------
+
+type Site {
+  id: ID!
+  name: String!
+  description: String
+  timezone: String
+  locales: [Locale!]!
+  defaultLocale: Locale
+  currencies: [Currency!]!
+  defaultCurrency: Currency
+  catalogs: [Catalog!]!
+  defaultCatalog: Catalog
+  customerLists: [CustomerList!]!
+  inventoryLists: [InventoryList!]!
+  priceBooks: [PriceBook!]!
+  status: SiteStatus
+}
+
+enum SiteStatus {
+  ONLINE
+  OFFLINE
+  MAINTENANCE
+}
+
+type SiteConfig {
+  siteId: ID!
+  preferences: JSON
+  searchPreferences: SearchPreferences
+  checkoutPreferences: CheckoutPreferences
+  cartPreferences: CartPreferences
+}
+
+type SearchPreferences {
+  enableSearchSuggestions: Boolean
+  maxSuggestions: Int
+  searchableAttributes: [String!]
+}
+
+type CheckoutPreferences {
+  requireEmailConfirmation: Boolean
+  allowGuestCheckout: Boolean
+  defaultPaymentMethodId: String
+}
+
+type CartPreferences {
+  maxItems: Int
+  mergeOnLogin: Boolean
+  persistentCartEnabled: Boolean
+}
+
+# ---------------------------------------------------------------------------
+# Content
+# ---------------------------------------------------------------------------
+
+type Slot {
+  id: ID!
+  slotId: String!
+  content: [SlotContent!]!
+  configuration: SlotConfiguration
+}
+
+type ContentSlot {
+  id: ID!
+  slotId: String!
+  slotContext: String
+  configuration: SlotConfiguration
+  calloutMsg: String
+  custom: Boolean
+}
+
+type SlotContent {
+  type: String
+  body: String
+  product: Product
+  category: Category
+  contentAsset: ContentAsset
+  markup: String
+}
+
+type SlotConfiguration {
+  enabled: Boolean
+  schedule: Schedule
+  rankingRule: String
+  maxSlots: Int
+}
+
+type ContentAsset {
+  id: ID!
+  name: String!
+  description: String
+  body: String
+  online: Boolean
+  onlineFrom: DateTime
+  onlineTo: DateTime
+  template: String
+  siteId: String
+  pageTitle: String
+  pageDescription: String
+  pageKeywords: String
+  customAttributes: JSON
+}
+
+type Page {
+  id: ID!
+  name: String!
+  description: String
+  pageType: PageType
+  regions: [PageRegion!]!
+  data: JSON
+  online: Boolean
+  locale: String
+  siteId: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type PageType {
+  id: ID!
+  name: String!
+  description: String
+}
+
+type PageRegion {
+  id: ID!
+  components: [PageComponent!]!
+}
+
+type PageComponent {
+  id: ID!
+  typeId: String
+  data: JSON
+}
+
+# ---------------------------------------------------------------------------
+# Form
+# ---------------------------------------------------------------------------
+
+type Form {
+  id: ID!
+  name: String!
+  fields: [FormField!]!
+  valid: Boolean
+  errors: [FormError!]!
+}
+
+type FormField {
+  id: ID!
+  name: String!
+  label: String
+  type: FormFieldType!
+  required: Boolean
+  value: String
+  options: [FormFieldOption!]!
+  validation: FormFieldValidation
+}
+
+enum FormFieldType {
+  TEXT
+  EMAIL
+  PASSWORD
+  NUMBER
+  SELECT
+  CHECKBOX
+  RADIO
+  TEXTAREA
+  DATE
+  PHONE
+}
+
+type FormFieldOption {
+  label: String!
+  value: String!
+  selected: Boolean
+}
+
+type FormFieldValidation {
+  minLength: Int
+  maxLength: Int
+  pattern: String
+  message: String
+}
+
+type FormError {
+  field: String
+  message: String!
+}
+
+# ---------------------------------------------------------------------------
+# Custom Objects
+# ---------------------------------------------------------------------------
+
+type CustomObject {
+  id: ID!
+  keyId: String!
+  typeId: String!
+  attributes: JSON!
+  siteId: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+# ---------------------------------------------------------------------------
+# Einstein Recommendations
+# ---------------------------------------------------------------------------
+
+type EinsteinRecommendation {
+  recommenderName: String!
+  recommendationType: String
+  products: [Product!]!
+  context: EinsteinContext
+  recsId: String
+}
+
+type EinsteinContext {
+  productIds: [String!]
+  categoryId: String
+  searchPhrase: String
+  userId: String
+  clientId: String
+  sessionId: String
+  cookieId: String
+  siteId: String
+}
+
+# ---------------------------------------------------------------------------
+# A/B Testing
+# ---------------------------------------------------------------------------
+
+type ABTest {
+  id: ID!
+  name: String!
+  description: String
+  enabled: Boolean
+  control: ABTestGroup!
+  groups: [ABTestGroup!]!
+  startDate: DateTime
+  endDate: DateTime
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type ABTestGroup {
+  id: ID!
+  name: String!
+  allocation: Float!
+  experience: String
+}
+
+# ---------------------------------------------------------------------------
+# Session and Auth
+# ---------------------------------------------------------------------------
+
+type Session {
+  id: ID!
+  customerId: String
+  basketId: String
+  currency: String
+  locale: String
+  siteId: String
+  createdAt: DateTime
+  expiresAt: DateTime
+}
+
+type ShopperToken {
+  accessToken: String!
+  tokenType: String!
+  expiresIn: Int!
+  refreshToken: String
+  idToken: String
+  customerId: String
+  usid: String
+  enc_user_id: String
+}
+
+type OAuthToken {
+  accessToken: String!
+  tokenType: String!
+  expiresIn: Int!
+  refreshToken: String
+  scope: String
+  customerId: String
+}
+
+# ---------------------------------------------------------------------------
+# Root Types
+# ---------------------------------------------------------------------------
+
+type Query {
+  # Catalog and Products
+  catalog(id: ID!): Catalog
+  catalogs(siteId: String): [Catalog!]!
+  category(id: ID!, levels: Int, locale: String): Category
+  product(id: ID!, locale: String, currency: String): Product
+  products(ids: [ID!]!, locale: String, currency: String): [Product!]!
+  productSearch(query: String!, refinements: JSON, sortBy: String, limit: Int, offset: Int, locale: String, currency: String): ProductSearch!
+
+  # Pricing
+  priceBook(id: ID!): PriceBook
+  priceBooks(siteId: String): [PriceBook!]!
+
+  # Promotions
+  campaign(id: ID!): Campaign
+  campaigns(siteId: String): [Campaign!]!
+  promotion(id: ID!): Promotion
+  promotions(campaignId: String, locale: String): [Promotion!]!
+  coupon(id: ID!): Coupon
+
+  # Cart
+  cart(basketId: ID!): Cart
+  customerBaskets(customerId: ID!): [CustomerBasket!]!
+
+  # Orders
+  order(id: ID!): Order
+  orders(customerId: String, status: OrderStatus, limit: Int, offset: Int): CustomerOrderConnection!
+
+  # Customers
+  customer(id: ID!): Customer
+  customers(email: String, customerNo: String, limit: Int, offset: Int): [Customer!]!
+  customerGroup(id: ID!): CustomerGroup
+  customerGroups(siteId: String): [CustomerGroup!]!
+  customerList(id: ID!): CustomerList
+
+  # Inventory
+  inventoryList(id: ID!): InventoryList
+  inventoryRecord(inventoryListId: ID!, productId: ID!): InventoryRecord
+
+  # Search
+  contentSearch(query: String!, limit: Int, offset: Int, locale: String): ContentSearch!
+  storeSearch(query: String, latitude: Float, longitude: Float, maxDistance: Float, limit: Int, offset: Int): StoreSearch!
+
+  # Store
+  store(id: ID!): Store
+  stores(siteId: String, inventoryListId: String): [Store!]!
+
+  # Site
+  site(id: ID!): Site
+  sites: [Site!]!
+  siteConfig(siteId: ID!): SiteConfig
+
+  # Content
+  contentAsset(id: ID!, locale: String): ContentAsset
+  contentSlot(id: ID!, context: String, locale: String): ContentSlot
+  page(id: ID!, locale: String): Page
+
+  # Einstein
+  einsteinRecommendations(recommenderName: String!, context: EinsteinContextInput!): EinsteinRecommendation!
+
+  # Gift Cards
+  giftCard(code: String!): GiftCard
+
+  # Session
+  session(id: ID!): Session
+
+  # A/B Tests
+  abTest(id: ID!): ABTest
+  abTests(siteId: String): [ABTest!]!
+
+  # Custom Objects
+  customObject(typeId: String!, keyId: String!): CustomObject
+}
+
+type Mutation {
+  # Cart
+  createCart(siteId: String, locale: String, currency: String): Cart!
+  addToCart(basketId: ID!, items: [CartItemInput!]!): Cart!
+  updateCartItem(basketId: ID!, itemId: ID!, quantity: Float!): Cart!
+  removeCartItem(basketId: ID!, itemId: ID!): Cart!
+  applyCoupon(basketId: ID!, code: String!): Cart!
+  removeCoupon(basketId: ID!, couponItemId: ID!): Cart!
+  setShippingAddress(basketId: ID!, address: AddressInput!, shipmentId: String): Cart!
+  setShippingMethod(basketId: ID!, methodId: ID!, shipmentId: String): Cart!
+  setBillingAddress(basketId: ID!, address: AddressInput!): Cart!
+  addPaymentInstrument(basketId: ID!, payment: PaymentInput!): Cart!
+  removePaymentInstrument(basketId: ID!, paymentInstrumentId: ID!): Cart!
+
+  # Order
+  createOrder(basketId: ID!): Order!
+  cancelOrder(orderId: ID!, reason: String): Order!
+  updateOrderStatus(orderId: ID!, status: OrderStatus!): Order!
+  addOrderNote(orderId: ID!, text: String!, subject: String): Order!
+
+  # Customer
+  createCustomer(email: String!, password: String!, firstName: String, lastName: String): Customer!
+  updateCustomer(customerId: ID!, input: CustomerInput!): Customer!
+  addCustomerAddress(customerId: ID!, address: AddressInput!): CustomerAddress!
+  updateCustomerAddress(customerId: ID!, addressId: ID!, address: AddressInput!): CustomerAddress!
+  deleteCustomerAddress(customerId: ID!, addressId: ID!): Boolean!
+
+  # Wishlist
+  createWishList(customerId: ID!, name: String!, public: Boolean): WishList!
+  addToWishList(customerId: ID!, wishListId: ID!, productId: String!, quantity: Float): WishListItem!
+  removeFromWishList(customerId: ID!, wishListId: ID!, itemId: ID!): Boolean!
+
+  # Auth
+  getShopperToken(clientId: String!, siteId: String!, usid: String): ShopperToken!
+  refreshShopperToken(refreshToken: String!, clientId: String!): ShopperToken!
+
+  # Gift Cards
+  redeemGiftCard(basketId: ID!, code: String!): Cart!
+}
+
+# ---------------------------------------------------------------------------
+# Input Types
+# ---------------------------------------------------------------------------
+
+input CartItemInput {
+  productId: String!
+  quantity: Float!
+  optionItems: [OptionItemInput!]
+  customAttributes: JSON
+}
+
+input OptionItemInput {
+  optionId: String!
+  optionValueId: String!
+}
+
+input AddressInput {
+  firstName: String
+  lastName: String
+  address1: String!
+  address2: String
+  city: String!
+  stateCode: String
+  postalCode: String
+  countryCode: String!
+  phone: String
+  companyName: String
+}
+
+input PaymentInput {
+  paymentMethodId: String!
+  amount: Float
+  creditCardToken: String
+  maskedGiftCertificateCode: String
+}
+
+input CustomerInput {
+  firstName: String
+  lastName: String
+  email: String
+  phoneHome: String
+  phoneMobile: String
+  birthday: String
+  gender: CustomerGender
+  preferences: JSON
+  customAttributes: JSON
+}
+
+input EinsteinContextInput {
+  productIds: [String!]
+  categoryId: String
+  searchPhrase: String
+  userId: String
+  clientId: String!
+  siteId: String!
+  cookieId: String
+}
