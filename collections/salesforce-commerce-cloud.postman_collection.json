@@ -1,0 +1,1622 @@
+{
+  "item": [
+    {
+      "id": "c1988c40-fa26-4017-ab9a-917a2edfbbf8",
+      "name": "Get an SLAS access token",
+      "request": {
+        "name": "Get an SLAS access token",
+        "description": {
+          "content": "Shopper Login and API Access Service (SLAS) OAuth 2.0 token endpoint.\nSupports guest and authenticated shopper flows.\n",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "shopper",
+            "auth",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "oauth2",
+            "token"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) "
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "disabled": false,
+              "key": "grant_type",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "code",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "code_verifier",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "client_id",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "refresh_token",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "channel_id",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "usid",
+              "value": "<string>"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "id": "d7da08ac-c709-4519-8649-bd5a998bfa2f",
+          "name": "SLAS token response",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "auth",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "oauth2",
+                "token"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "disabled": false,
+                  "key": "grant_type",
+                  "value": "<string>"
+                },
+                {
+                  "disabled": false,
+                  "key": "code",
+                  "value": "<string>"
+                },
+                {
+                  "disabled": false,
+                  "key": "code_verifier",
+                  "value": "<string>"
+                },
+                {
+                  "disabled": false,
+                  "key": "client_id",
+                  "value": "<string>"
+                },
+                {
+                  "disabled": false,
+                  "key": "refresh_token",
+                  "value": "<string>"
+                },
+                {
+                  "disabled": false,
+                  "key": "channel_id",
+                  "value": "<string>"
+                },
+                {
+                  "disabled": false,
+                  "key": "usid",
+                  "value": "<string>"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"access_token\": \"string\",\n  \"refresh_token\": \"string\",\n  \"expires_in\": 8139,\n  \"token_type\": \"string\",\n  \"usid\": \"string\",\n  \"customer_id\": \"string\",\n  \"enc_user_id\": \"string\"\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "11a7ba6f-7c0f-4889-89ed-3e90c5766b3d",
+      "name": "Get products",
+      "request": {
+        "name": "Get products",
+        "description": {
+          "content": "Returns hydrated product information for one or more products.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            "shopper",
+            "products",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "products"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "ids",
+              "value": "<string>",
+              "description": "(Required) Comma-separated list of product IDs (up to 24)."
+            },
+            {
+              "disabled": false,
+              "key": "siteId",
+              "value": "<string>",
+              "description": "(Required) "
+            },
+            {
+              "disabled": false,
+              "key": "inventoryIds",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "currency",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "locale",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "allImages",
+              "value": "<boolean>"
+            },
+            {
+              "disabled": false,
+              "key": "perPricebook",
+              "value": "<boolean>"
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "92a29267-4f0b-4be1-9aa2-f9542c26112c",
+          "name": "Product list result",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "products",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "products"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "ids",
+                  "value": "<string>"
+                },
+                {
+                  "key": "siteId",
+                  "value": "<string>"
+                },
+                {
+                  "key": "inventoryIds",
+                  "value": "<string>"
+                },
+                {
+                  "key": "currency",
+                  "value": "<string>"
+                },
+                {
+                  "key": "locale",
+                  "value": "<string>"
+                },
+                {
+                  "key": "allImages",
+                  "value": "<boolean>"
+                },
+                {
+                  "key": "perPricebook",
+                  "value": "<boolean>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": 660.8723762533552\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "c2a0d7f1-8ca3-40ac-b279-6f7006c7d4a1",
+      "name": "Get a product",
+      "request": {
+        "name": "Get a product",
+        "description": {},
+        "url": {
+          "path": [
+            "shopper",
+            "products",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "products",
+            ":id"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "siteId",
+              "value": "<string>",
+              "description": "(Required) "
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "id",
+              "description": "(Required) "
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "b9017f9d-edd6-46d0-87c5-b98f108fff37",
+          "name": "Product detail",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "products",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "products",
+                ":id"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "siteId",
+                  "value": "<string>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "id",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": 660.8723762533552\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "50f9ddfc-6399-4127-adb0-c7fb494dec74",
+      "name": "Product search",
+      "request": {
+        "name": "Product search",
+        "description": {},
+        "url": {
+          "path": [
+            "shopper",
+            "search",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "product-search"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "siteId",
+              "value": "<string>",
+              "description": "(Required) "
+            },
+            {
+              "disabled": false,
+              "key": "q",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "refine",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "refine",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "sort",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "currency",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "locale",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "offset",
+              "value": "<integer>"
+            },
+            {
+              "disabled": false,
+              "key": "limit",
+              "value": "<integer>"
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "d0c99209-785e-484b-80ff-fc524b9e28f4",
+          "name": "Product search result",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "search",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "product-search"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "siteId",
+                  "value": "<string>"
+                },
+                {
+                  "key": "q",
+                  "value": "<string>"
+                },
+                {
+                  "key": "refine",
+                  "value": "<string>"
+                },
+                {
+                  "key": "refine",
+                  "value": "<string>"
+                },
+                {
+                  "key": "sort",
+                  "value": "<string>"
+                },
+                {
+                  "key": "currency",
+                  "value": "<string>"
+                },
+                {
+                  "key": "locale",
+                  "value": "<string>"
+                },
+                {
+                  "key": "offset",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": 660.8723762533552\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "db585f3e-4e57-4d95-85ba-513485aa759e",
+      "name": "Create a basket",
+      "request": {
+        "name": "Create a basket",
+        "description": {},
+        "url": {
+          "path": [
+            "shopper",
+            "baskets",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "baskets"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "siteId",
+              "value": "<string>",
+              "description": "(Required) "
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"key_0\": \"string\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "1faa6b73-7164-45d9-9a90-59cac994d1db",
+          "name": "Created basket",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "baskets",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "baskets"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "siteId",
+                  "value": "<string>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"key_0\": \"string\",\n  \"key_1\": 660.8723762533552\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": 660.8723762533552\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "fa3e460f-a65e-44a7-bd01-45a28e32b876",
+      "name": "Get a basket",
+      "request": {
+        "name": "Get a basket",
+        "description": {},
+        "url": {
+          "path": [
+            "shopper",
+            "baskets",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "baskets",
+            ":basketId"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "siteId",
+              "value": "<string>",
+              "description": "(Required) "
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "basketId",
+              "description": "(Required) "
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "a5e727e3-1b3f-43fc-84fc-7a08b06f7e31",
+          "name": "Basket",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "baskets",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "baskets",
+                ":basketId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "siteId",
+                  "value": "<string>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "basketId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": 660.8723762533552\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "7841e7dc-0e97-46d9-8b42-da20a87ffb49",
+      "name": "Delete a basket",
+      "request": {
+        "name": "Delete a basket",
+        "description": {},
+        "url": {
+          "path": [
+            "shopper",
+            "baskets",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "baskets",
+            ":basketId"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "siteId",
+              "value": "<string>",
+              "description": "(Required) "
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "basketId",
+              "description": "(Required) "
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "132022f5-b963-431b-8645-0b56d33fe8c1",
+          "name": "Basket deleted",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "baskets",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "baskets",
+                ":basketId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "siteId",
+                  "value": "<string>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "basketId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              }
+            ],
+            "method": "DELETE",
+            "body": {}
+          },
+          "status": "No Content",
+          "code": 204,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "e73ec3e6-0306-4cce-b738-b9060e8b3683",
+      "name": "Add items to a basket",
+      "request": {
+        "name": "Add items to a basket",
+        "description": {},
+        "url": {
+          "path": [
+            "shopper",
+            "baskets",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "baskets",
+            ":basketId",
+            "items"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "siteId",
+              "value": "<string>",
+              "description": "(Required) "
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "basketId",
+              "description": "(Required) "
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "[\n  {\n    \"key_0\": 2292.604463987926,\n    \"key_1\": false\n  },\n  {\n    \"key_0\": \"string\",\n    \"key_1\": true\n  }\n]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "fc20b2dd-676c-4aa1-862e-e99b9b011874",
+          "name": "Updated basket",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "baskets",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "baskets",
+                ":basketId",
+                "items"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "siteId",
+                  "value": "<string>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "basketId",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"key_0\": 3738,\n    \"key_1\": true\n  },\n  {\n    \"key_0\": false,\n    \"key_1\": true\n  }\n]",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "text/plain"
+            }
+          ],
+          "body": "",
+          "cookie": [],
+          "_postman_previewlanguage": "text"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "5b52ee8f-4372-4424-908d-2e48bd189911",
+      "name": "Create an order from a basket",
+      "request": {
+        "name": "Create an order from a basket",
+        "description": {},
+        "url": {
+          "path": [
+            "shopper",
+            "orders",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "orders"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "siteId",
+              "value": "<string>",
+              "description": "(Required) "
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"basketId\": \"<string>\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "7c1c2ba3-61cd-4202-860e-c8c980d47eae",
+          "name": "Created order",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "orders",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "orders"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "siteId",
+                  "value": "<string>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"basketId\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": 660.8723762533552\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "9dea2c5c-7c05-4799-8a8e-0582d3b20b46",
+      "name": "Get an order",
+      "request": {
+        "name": "Get an order",
+        "description": {},
+        "url": {
+          "path": [
+            "shopper",
+            "orders",
+            "v1",
+            "organizations",
+            ":organizationId",
+            "orders",
+            ":orderNo"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "siteId",
+              "value": "<string>",
+              "description": "(Required) "
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "organizationId",
+              "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "orderNo",
+              "description": "(Required) "
+            },
+            {
+              "description": "B2C Commerce Cloud realm short code",
+              "type": "any",
+              "value": "{{shortCode}}",
+              "key": "shortCode"
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "e654b164-6dd9-4427-b350-a1a758b9ad9b",
+          "name": "Order",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "shopper",
+                "orders",
+                "v1",
+                "organizations",
+                ":organizationId",
+                "orders",
+                ":orderNo"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "siteId",
+                  "value": "<string>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "organizationId",
+                  "description": "(Required) B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "orderNo",
+                  "description": "(Required) "
+                },
+                {
+                  "description": "B2C Commerce Cloud realm short code",
+                  "type": "any",
+                  "value": "{{shortCode}}",
+                  "key": "shortCode"
+                }
+              ]
+            },
+            "header": [
+              {
+                "description": {
+                  "content": "Added as a part of security scheme: bearer",
+                  "type": "text/plain"
+                },
+                "key": "Authorization",
+                "value": "Bearer <token>"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"key_0\": \"string\",\n  \"key_1\": 660.8723762533552\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "description": {
+        "content": "B2C Commerce Cloud realm short code",
+        "type": "text/plain"
+      },
+      "type": "any",
+      "value": "zzte-053",
+      "key": "shortCode"
+    },
+    {
+      "type": "string",
+      "value": "https://{{shortCode}}.api.commercecloud.salesforce.com",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "4252a477-053e-463a-b4e7-2921bc41ca88",
+    "name": "Salesforce Commerce API (SCAPI) - Shopper Subset",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Representative subset of the Salesforce B2C Commerce API (SCAPI) covering\ncommon Shopper endpoints (Login, Products, Search, Baskets, Orders,\nCustomers). SCAPI is a RAML-defined API family organized into Shopper,\nData, and Admin tiers. Shopper APIs authenticate via the Shopper Login\nand API Access Service (SLAS) and other tiers use OAuth 2.0 via\nSalesforce Account Manager.\n\n\nContact Support:\n Name: Salesforce Commerce Cloud",
+      "type": "text/plain"
+    }
+  }
+}

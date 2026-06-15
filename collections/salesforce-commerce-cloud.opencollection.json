@@ -1,0 +1,386 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Salesforce Commerce API (SCAPI) - Shopper Subset",
+    "version": "v1"
+  },
+  "request": {
+    "auth": {
+      "type": "bearer",
+      "token": "{{bearerToken}}"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Get an SLAS access token",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/auth/v1/organizations/:organizationId/oauth2/token",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path"
+          }
+        ],
+        "body": {
+          "type": "form-urlencoded",
+          "data": [
+            {
+              "name": "grant_type",
+              "value": ""
+            },
+            {
+              "name": "code",
+              "value": ""
+            },
+            {
+              "name": "code_verifier",
+              "value": ""
+            },
+            {
+              "name": "client_id",
+              "value": ""
+            },
+            {
+              "name": "refresh_token",
+              "value": ""
+            },
+            {
+              "name": "channel_id",
+              "value": ""
+            },
+            {
+              "name": "usid",
+              "value": ""
+            }
+          ]
+        }
+      },
+      "docs": "Shopper Login and API Access Service (SLAS) OAuth 2.0 token endpoint.\nSupports guest and authenticated shopper flows.\n"
+    },
+    {
+      "info": {
+        "name": "Get products",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/products/v1/organizations/:organizationId/products",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path",
+            "description": "B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+          },
+          {
+            "name": "ids",
+            "value": "",
+            "type": "query",
+            "description": "Comma-separated list of product IDs (up to 24)."
+          },
+          {
+            "name": "siteId",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "inventoryIds",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "currency",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "locale",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "allImages",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "perPricebook",
+            "value": "",
+            "type": "query"
+          }
+        ]
+      },
+      "docs": "Returns hydrated product information for one or more products."
+    },
+    {
+      "info": {
+        "name": "Get a product",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/products/v1/organizations/:organizationId/products/:id",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path",
+            "description": "B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+          },
+          {
+            "name": "id",
+            "value": "",
+            "type": "path"
+          },
+          {
+            "name": "siteId",
+            "value": "",
+            "type": "query"
+          }
+        ]
+      },
+      "docs": "Get a product"
+    },
+    {
+      "info": {
+        "name": "Product search",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/search/v1/organizations/:organizationId/product-search",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path",
+            "description": "B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+          },
+          {
+            "name": "siteId",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "q",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "refine",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "sort",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "currency",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "locale",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "offset",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "limit",
+            "value": "",
+            "type": "query"
+          }
+        ]
+      },
+      "docs": "Product search"
+    },
+    {
+      "info": {
+        "name": "Create a basket",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/baskets/v1/organizations/:organizationId/baskets",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path",
+            "description": "B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+          },
+          {
+            "name": "siteId",
+            "value": "",
+            "type": "query"
+          }
+        ],
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "Create a basket"
+    },
+    {
+      "info": {
+        "name": "Get a basket",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/baskets/v1/organizations/:organizationId/baskets/:basketId",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path",
+            "description": "B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+          },
+          {
+            "name": "basketId",
+            "value": "",
+            "type": "path"
+          },
+          {
+            "name": "siteId",
+            "value": "",
+            "type": "query"
+          }
+        ]
+      },
+      "docs": "Get a basket"
+    },
+    {
+      "info": {
+        "name": "Delete a basket",
+        "type": "http"
+      },
+      "http": {
+        "method": "DELETE",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/baskets/v1/organizations/:organizationId/baskets/:basketId",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path",
+            "description": "B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+          },
+          {
+            "name": "basketId",
+            "value": "",
+            "type": "path"
+          },
+          {
+            "name": "siteId",
+            "value": "",
+            "type": "query"
+          }
+        ]
+      },
+      "docs": "Delete a basket"
+    },
+    {
+      "info": {
+        "name": "Add items to a basket",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/baskets/v1/organizations/:organizationId/baskets/:basketId/items",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path",
+            "description": "B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+          },
+          {
+            "name": "basketId",
+            "value": "",
+            "type": "path"
+          },
+          {
+            "name": "siteId",
+            "value": "",
+            "type": "query"
+          }
+        ],
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "Add items to a basket"
+    },
+    {
+      "info": {
+        "name": "Create an order from a basket",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/orders/v1/organizations/:organizationId/orders",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path",
+            "description": "B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+          },
+          {
+            "name": "siteId",
+            "value": "",
+            "type": "query"
+          }
+        ],
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "Create an order from a basket"
+    },
+    {
+      "info": {
+        "name": "Get an order",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://{shortCode}.api.commercecloud.salesforce.com/shopper/orders/v1/organizations/:organizationId/orders/:orderNo",
+        "params": [
+          {
+            "name": "organizationId",
+            "value": "",
+            "type": "path",
+            "description": "B2C Commerce Cloud organization ID (e.g. f_ecom_zzte_053)."
+          },
+          {
+            "name": "orderNo",
+            "value": "",
+            "type": "path"
+          },
+          {
+            "name": "siteId",
+            "value": "",
+            "type": "query"
+          }
+        ]
+      },
+      "docs": "Get an order"
+    }
+  ],
+  "bundled": true
+}
