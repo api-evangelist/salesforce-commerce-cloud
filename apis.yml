@@ -8,7 +8,7 @@ description: 'Salesforce Commerce Cloud (formerly Demandware) is an enterprise c
   2.0 via Salesforce Account Manager and groups APIs into Shopper, Data, and Admin
   tiers.'
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Commerce
 - E-Commerce
