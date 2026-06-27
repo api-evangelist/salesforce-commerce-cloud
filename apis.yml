@@ -41,7 +41,7 @@ apis:
   properties:
   - type: Documentation
     url: https://developer.salesforce.com/docs/commerce/commerce-api/overview
-  - type: API References
+  - type: APIReference
     url: https://developer.salesforce.com/docs/commerce/commerce-api/references
   - type: API Explorer
     url: https://api-explorer.commercecloud.salesforce.com
@@ -83,11 +83,11 @@ common:
   url: https://developer.salesforce.com/docs/commerce/commerce-api/overview
 - type: API Explorer
   url: https://api-explorer.commercecloud.salesforce.com
-- type: Postman Collection
+- type: PostmanCollection
   url: https://www.postman.com/salesforce-developers/salesforce-developers/documentation/1qkzgik/salesforce-commerce-b2c
 - type: Pricing
   url: https://www.salesforce.com/products/commerce-cloud/pricing/
-- type: SignUp
+- type: Signup
   url: https://developer.salesforce.com/signup
 - type: Trailhead
   url: https://trailhead.salesforce.com/content/learn/modules/b2c-integration-approaches/b2c-explore-ocapi
@@ -97,7 +97,7 @@ common:
   url: https://help.salesforce.com/s/
 - name: Agent Skills
   url: https://github.com/SalesforceCommerceCloud/b2c-developer-tooling
-  type: AgentSkill
+  type: AgentSkills
 features:
 - name: Shopper APIs
   description: Public-facing SCAPI endpoints for storefront experiences including
