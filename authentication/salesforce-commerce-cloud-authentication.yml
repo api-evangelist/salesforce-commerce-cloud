@@ -1,0 +1,15 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/salesforce-commerce-cloud-openapi.yml
+summary:
+  types:
+  - http
+schemes:
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  description: |-
+    OAuth 2.0 access token from SLAS (Shopper APIs) or Salesforce Account
+    Manager (Data and Admin APIs), sent as `Authorization: Bearer <token>`.
+  sources:
+  - openapi/salesforce-commerce-cloud-openapi.yml

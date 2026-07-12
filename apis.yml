@@ -73,6 +73,12 @@ apis:
   - type: Usage Guide
     url: https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi/apiusage.html
 common:
+- type: VulnerabilityDisclosure
+  url: security/salesforce-commerce-cloud-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/salesforce-commerce-cloud-domain-security.yml
+- type: Authentication
+  url: authentication/salesforce-commerce-cloud-authentication.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/commercecloud-demandware
 - type: Website
@@ -98,6 +104,8 @@ common:
 - name: Agent Skills
   url: https://github.com/SalesforceCommerceCloud/b2c-developer-tooling
   type: AgentSkills
+- url: https://developer.salesforce.com/blogs/feed
+  type: Blog
 features:
 - name: Shopper APIs
   description: Public-facing SCAPI endpoints for storefront experiences including
