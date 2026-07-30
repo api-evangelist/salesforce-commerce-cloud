@@ -8,7 +8,19 @@ description: 'Salesforce Commerce Cloud (formerly Demandware) is an enterprise c
   2.0 via Salesforce Account Manager and groups APIs into Shopper, Data, and Admin
   tiers.'
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/salesforce-commerce-cloud.png
 tags:
 - Commerce
 - E-Commerce
@@ -24,11 +36,11 @@ specificationVersion: '0.19'
 apis:
 - aid: salesforce-commerce-cloud:scapi
   name: Salesforce Commerce API (SCAPI)
-  description: Modern REST API family for B2C Commerce Cloud built on a unified RAML
-    specification, organized into Shopper, Data, and Admin APIs for headless commerce.
-    Authentication uses OAuth 2.0 via Salesforce Account Manager (SLAS for shopper
-    flows). Custom APIs allow developers to publish their own endpoints under the
-    SCAPI framework using an OAS 3.0 schema contract.
+  description: >-
+    Modern REST API family for B2C Commerce Cloud built on a unified RAML specification, organized into
+    Shopper, Data, and Admin APIs for headless commerce. Authentication uses OAuth 2.0 via Salesforce
+    Account Manager (SLAS for shopper flows). Custom APIs allow developers to publish their own endpoints
+    under the SCAPI framework using an OAS 3.0 schema contract.
   humanURL: https://developer.salesforce.com/docs/commerce/commerce-api/overview
   baseURL: https://<short-code>.api.commercecloud.salesforce.com
   tags:
@@ -53,10 +65,10 @@ apis:
     type: GraphQL
 - aid: salesforce-commerce-cloud:ocapi
   name: Open Commerce API (OCAPI)
-  description: Legacy REST API for B2C Commerce Cloud, organized into Shop API, Data
-    API, and Meta API. Authentication uses OAuth 2.0 via Salesforce Account Manager.
-    OCAPI is deprecated for new projects in favor of SCAPI but remains supported on
-    existing instances.
+  description: >-
+    Legacy REST API for B2C Commerce Cloud, organized into Shop API, Data API, and Meta API. Authentication
+    uses OAuth 2.0 via Salesforce Account Manager. OCAPI is deprecated for new projects in favor of SCAPI
+    but remains supported on existing instances.
   humanURL: https://developer.salesforce.com/docs/commerce/b2c-commerce/references
   baseURL: https://<instance>.demandware.net/s/-/dw/data/v23_2
   tags:
@@ -69,9 +81,21 @@ apis:
   - type: Documentation
     url: https://developer.salesforce.com/docs/commerce/b2c-commerce/references
   - type: API Explorer
-    url: https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi/apiexplorer.html
+    url: >-
+      https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi/apiexplorer.html
   - type: Usage Guide
-    url: https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi/apiusage.html
+    url: >-
+      https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi/apiusage.html
+- aid: salesforce-commerce-cloud:salesforce-commerce-cloud-shopper-api
+  name: Salesforce Commerce Cloud Shopper API
+  description: The Shopper API from Salesforce Commerce Cloud — 9 operation(s) for shopper.
+  humanURL: https://developer.salesforce.com/docs/commerce/commerce-api/overview
+  baseURL: https://<short-code>.api.commercecloud.salesforce.com
+  tags:
+  - Shopper
+  properties:
+  - type: OpenAPI
+    url: openapi/salesforce-commerce-cloud-shopper-api-openapi.yml
 common:
 - type: AgenticAccess
   url: agentic-access/salesforce-commerce-cloud-agentic-access.yml
