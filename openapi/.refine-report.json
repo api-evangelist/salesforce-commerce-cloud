@@ -1,0 +1,14 @@
+{
+  "provider": "salesforce-commerce-cloud",
+  "sources": [
+    "salesforce-commerce-cloud-shopper-api-openapi.yml"
+  ],
+  "outputs": [
+    "salesforce-commerce-cloud-shopper-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
