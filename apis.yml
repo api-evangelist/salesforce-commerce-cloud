@@ -49,6 +49,13 @@ apis:
   - Shopper API
   - Data API
   - Admin API
+  - Authentication
+  tags_raw:
+  - SCAPI
+  - Headless Commerce
+  - Shopper API
+  - Data API
+  - Admin API
   - OAuth 2.0
   properties:
   - type: Documentation
