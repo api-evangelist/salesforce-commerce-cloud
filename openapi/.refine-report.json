@@ -1,7 +1,7 @@
 {
   "provider": "salesforce-commerce-cloud",
   "sources": [
-    "salesforce-commerce-cloud-shopper-api-openapi.yml"
+    "_original/salesforce-commerce-cloud-openapi.yml"
   ],
   "outputs": [
     "salesforce-commerce-cloud-shopper-api-openapi.yml"
@@ -9,6 +9,23 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "salesforce-commerce-cloud-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths POST /shopper/auth/v1/organizations/{organizationId}/oauth2/token -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths GET /shopper/products/v1/organizations/{organizationId}/products -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths GET /shopper/products/v1/organizations/{organizationId}/products/{id} -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths GET /shopper/search/v1/organizations/{organizationId}/product-search -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths POST /shopper/baskets/v1/organizations/{organizationId}/baskets -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths GET /shopper/baskets/v1/organizations/{organizationId}/baskets/{basketId} -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths DELETE /shopper/baskets/v1/organizations/{organizationId}/baskets/{basketId} -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths POST /shopper/baskets/v1/organizations/{organizationId}/baskets/{basketId}/items -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths POST /shopper/orders/v1/organizations/{organizationId}/orders -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: tagged paths GET /shopper/orders/v1/organizations/{organizationId}/orders/{orderNo} -> Shopper",
+    "salesforce-commerce-cloud-openapi.yml: declared missing tag: Shopper",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "salesforce-commerce-cloud-shopper-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }

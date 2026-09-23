@@ -1,4 +1,4 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
   title: Salesforce Commerce API (SCAPI) - Subset Shopper API
   description: 'Representative subset of the Salesforce B2C Commerce API (SCAPI) covering
@@ -11,9 +11,7 @@ info:
 
     and API Access Service (SLAS) and other tiers use OAuth 2.0 via
 
-    Salesforce Account Manager.
-
-    '
+    Salesforce Account Manager.'
   version: v1
   contact:
     name: Salesforce Commerce Cloud
@@ -35,9 +33,7 @@ paths:
       summary: Get an SLAS access token
       description: 'Shopper Login and API Access Service (SLAS) OAuth 2.0 token endpoint.
 
-        Supports guest and authenticated shopper flows.
-
-        '
+        Supports guest and authenticated shopper flows.'
       operationId: getSlasToken
       parameters:
       - name: organizationId
