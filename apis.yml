@@ -78,8 +78,6 @@ apis:
     url: https://developer.salesforce.com/docs/commerce/commerce-api/guide/why-use-scapi.html
   - type: Custom APIs
     url: https://developer.salesforce.com/docs/commerce/commerce-api/guide/custom-apis.html
-  - url: graphql/salesforce-commerce-cloud-graphql.md
-    type: GraphQL
 - aid: salesforce-commerce-cloud:ocapi
   name: Open Commerce API (OCAPI)
   description: Legacy REST API for B2C Commerce Cloud, organized into Shop API, Data API, and Meta API. Authentication
