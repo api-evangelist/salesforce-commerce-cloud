@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/salesforce-commerce-cloud/integrations
+- https://n8n.io/integrations/salesforce-commerce-cloud/
+- https://composio.dev/toolkits/salesforce-commerce-cloud
+- https://monid.ai/tools/salesforce-commerce-cloud
+checked:
+- https://composio.dev/toolkits/salesforce-commerce-cloud
+- https://monid.ai/tools/salesforce-commerce-cloud
+- https://n8n.io/integrations/salesforce-commerce-cloud/
+- https://zapier.com/apps/salesforce-commerce-cloud/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
