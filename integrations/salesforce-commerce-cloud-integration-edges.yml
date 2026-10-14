@@ -1,5 +1,5 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/salesforce-commerce-cloud/integrations
 - https://n8n.io/integrations/salesforce-commerce-cloud/
@@ -7,10 +7,35 @@ source:
 - https://monid.ai/tools/salesforce-commerce-cloud
 checked:
 - https://composio.dev/toolkits/salesforce-commerce-cloud
+- https://hightouch.com/docs/destinations/salesforce-commerce-cloud
 - https://monid.ai/tools/salesforce-commerce-cloud
 - https://n8n.io/integrations/salesforce-commerce-cloud/
 - https://zapier.com/apps/salesforce-commerce-cloud/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Hightouch
+  partner: hightouch
+  partner_match: aggregator
+  marketplace: coverage
+  channel: partner-built
+  direction: partner-built
+  type: coverage
+  relationship: connector-coverage
+  evidence: https://hightouch.com/docs/destinations/salesforce-commerce-cloud
+  coverage_role:
+  - destination
+  cdp_signals:
+    destination:
+      catalog_entries:
+      - salesforce-commerce-cloud
+      status: released
+      sync_types:
+      - Customers
+      sync_modes:
+      - insert
+      - update
+      - upsert
+  detected_by: sweep-cdp.py
+  first_seen: '2026-10-14'
 templates: []
