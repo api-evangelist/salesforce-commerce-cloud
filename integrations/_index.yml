@@ -39,5 +39,5 @@
     - connectors/applications/salesforce-commerce-cloud
     vendor_link: https://www.salesforce.com/in/products/commerce-cloud/
     builder: Fivetran
-  status: pending-generation
+  status: not-a-workflow
   arazzo: null
