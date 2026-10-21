@@ -41,3 +41,4861 @@
     builder: Fivetran
   status: not-a-workflow
   arazzo: null
+- slug: salesforce-commerce-cloud-bryj
+  label: Bryj
+  partner_name: Bryj
+  category: sales, eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=001f4a08-5dd9-4958-a849-4b825c6b014b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ifthenpay-lda
+  label: ifthenpay, lda
+  partner_name: ifthenpay, lda
+  category: sales, finance, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=00942a36-a75c-4927-9b60-e00e180aed3d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-pimio-cloud
+  label: Pimio Cloud
+  partner_name: Pimio Cloud
+  category: salesProductivity, productInformationManagement, agentProductivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=0157a41a-28c7-4848-a5df-3004e8deaab0
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-zenkraft-a-bringg-solution
+  label: Zenkraft, a Bringg Solution
+  partner_name: Zenkraft, a Bringg Solution
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=024d3277-2a06-4554-a5fb-45b1e30279de
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-airwallex
+  label: Airwallex
+  partner: airwallex
+  partner_name: Airwallex
+  category: sales, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=03514dde-0735-4ba2-be32-998570b5563a
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fairing
+  label: Fairing
+  partner_name: Fairing
+  category: eCommerce, surveys, marketingAndIntelligence
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=041df1ae-bbec-43e4-ad46-30866b265faa
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-eposly
+  label: Eposly
+  partner_name: Eposly
+  category: sales, finance, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=04338a12-77d8-481d-8681-28197d081a01
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-square
+  label: Square
+  partner_name: Square
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=0675c525-7f67-498d-95ca-3710c2329ebf
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-salesforce-labs
+  label: Salesforce Labs
+  partner_name: Salesforce Labs
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: provider-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=07f83cb7-c24a-4f22-9ed5-f268b4e64277
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-nestosh
+  label: NESTOSH
+  partner_name: NESTOSH
+  category: commerce, marketing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=085d8340-b0ca-49cb-8e83-6ae7ee4ee50a
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-celigo-inc
+  label: Celigo, Inc
+  partner_name: Celigo, Inc
+  category: commerce, itAndAdministration, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=087b0226-e8f0-4c09-92eb-55f02941d715
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-route-app-inc
+  label: Route App, Inc
+  partner_name: Route App, Inc
+  category: commerce, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=0b5010eb-a973-4929-a82a-e7ac1d9ba20c
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ran-eood
+  label: RAN EOOD
+  partner_name: RAN EOOD
+  category: eCommerce, websites, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=0b6f19ce-3ae0-4f37-bf65-9d5cbdee995f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-aegeantic
+  label: Aegeantic
+  partner_name: Aegeantic
+  category: paymentsProcessing, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=10024a0d-bb58-455e-ac64-3e293496481e
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-postgrid
+  label: PostGrid
+  partner_name: PostGrid
+  category: shippingFulfillmentAndLogistics, dataCleansing, dataManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=113c7db2-40f9-4d0c-9786-46546427a629
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-drive-commerce
+  label: Drive Commerce
+  partner_name: Drive Commerce
+  category: quotesAndOrders, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=114a2a7b-7b64-48c1-b50e-4ff3dde516d8
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bynder
+  label: Bynder
+  partner_name: Bynder
+  category: commerce, marketing, productivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=11500ff5-b6b7-4c18-893a-7726c8e95b79
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-aetrex-inc
+  label: Aetrex Inc
+  partner_name: Aetrex Inc
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=122a89ea-8f84-4147-b768-41532ca4f0d1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-velou
+  label: Velou
+  partner_name: Velou
+  category: eCommerce, marketing, productivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=13488796-2cf7-43b9-b7ef-87d394b339df
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-massive-rocket-limited
+  label: MASSIVE ROCKET LIMITED
+  partner_name: MASSIVE ROCKET LIMITED
+  category: commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=155c3008-5643-43d4-9b97-b704ae94dba6
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-adsmurai
+  label: Adsmurai
+  partner_name: Adsmurai
+  category: eCommerce, marketplace, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=15b340b9-12b8-43c5-a806-567358d3d06a
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-appsflyer
+  label: AppsFlyer
+  partner_name: AppsFlyer
+  category: commerce, analytics, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=15f359aa-f3f6-43f5-b879-ccd1297d0e07
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-findock
+  label: FinDock
+  partner_name: FinDock
+  category: finance, paymentsProcessing, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=16092ebf-5f86-4af7-93b5-0a334489cba3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-stylescape-limited
+  label: Stylescape Limited
+  partner: edited
+  partner_name: Stylescape Limited
+  category: eCommerce, analytics, dataVisualization
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=16477717-319e-4bc8-950e-abd449c94956
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-techila-global-services
+  label: Techila Global Services
+  partner_name: Techila Global Services
+  category: finance, commerce, itAndAdministration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=16745d61-6624-4c86-855f-f6c30db69ed2
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-super-payments-limited
+  label: Super Payments Limited
+  partner: super-payments
+  partner_name: Super Payments Limited
+  category: sales, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=190ba97d-23c8-4742-89a1-0ed0cd44fc85
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-windcave-pty-ltd
+  label: Windcave Pty Ltd
+  partner_name: Windcave Pty Ltd
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=19414d9f-889c-4a78-a1be-85470c7f46a5
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ranosys-technologies
+  label: Ranosys Technologies
+  partner_name: Ranosys Technologies
+  category: commerce, productivity, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=1a34d93e-47ef-4258-a5ef-6a2167b21c2e
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-radom
+  label: Radom
+  partner_name: Radom
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=1a828f3a-80c5-4271-bd8d-4aec06ca8708
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-rws
+  label: RWS
+  partner_name: RWS
+  category: eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=1ad62451-204b-439b-b924-5ca82ed2dab8
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fluent-commerce
+  label: Fluent Commerce
+  partner_name: Fluent Commerce
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=1d525ac3-58ff-4101-9baf-dc23c5132aea
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-m2e-limited
+  label: M2E Limited
+  partner_name: M2E Limited
+  category: eCommerce, marketplace, productInformationManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=1dd08b52-4112-46e6-8cb2-64a59f33d43f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-royal-cyber-inc
+  label: Royal Cyber Inc.
+  partner_name: Royal Cyber Inc.
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=1e9d85b2-1220-4425-ac45-6ce1363ba9cf
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-katapult
+  label: Katapult
+  partner_name: Katapult
+  category: finance, eCommerce, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=1f496f4f-18ee-4642-bb79-903321cad588
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-oro-inc
+  label: Oro Inc
+  partner_name: Oro Inc
+  category: sales, commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=21dc58fc-0f81-4e37-9a2e-632bf8bfbefd
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-candybox
+  label: Candybox
+  partner_name: Candybox
+  category: sales, quotesAndOrders, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=22f5fe69-2925-4d1b-a5ab-41770ed772df
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-moneris
+  label: Moneris
+  partner: moneris
+  partner_name: Moneris
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2349a4f5-5cc5-4c1b-ad5e-824e81d33305
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cloud-analogy-crm-specialist-limited
+  label: Cloud Analogy CRM Specialist Limited
+  partner_name: Cloud Analogy CRM Specialist Limited
+  category: commerce, collaboration, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=238308c0-3a49-4c84-b87d-97b29eb08aae
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-glopal
+  label: GLOPAL
+  partner_name: GLOPAL
+  category: accounting, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=23af20e1-eea3-4ed1-af39-f3dbbb3b3a31
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-toppan-digital-language
+  label: Toppan Digital Language
+  partner_name: Toppan Digital Language
+  category: eCommerce, marketing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=252866f1-5da5-4101-89c1-021b84f0a040
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fluentic
+  label: Fluentic
+  partner_name: Fluentic
+  category: eCommerce, productivity, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=25dbe0e3-80ae-42e3-866e-e4cc1986136b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-radiance-commerce
+  label: Radiance Commerce
+  partner_name: Radiance Commerce
+  category: eCommerce, marketingAutomation, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=27ef074f-fc4f-4f57-86e6-875c4c3cf0af
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-itg-software-inc
+  label: ITG Software, Inc.
+  partner_name: ITG Software, Inc.
+  category: eCommerce, marketing, orderAndInventoryManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=287ab4fc-76ed-47b2-ac8a-e3d9a930ed65
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-firmly-inc
+  label: Firmly Inc
+  partner_name: Firmly Inc
+  category: eCommerce, marketing, campaignManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2894febf-abda-459b-890c-1d04a16a802a
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-appspring-development-inc
+  label: Appspring Development Inc
+  partner_name: Appspring Development Inc
+  category: eCommerce, marketplace, security
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=28fb58f3-f8cb-4367-9498-334b0e554fd4
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fujitsu-limited
+  label: Fujitsu Limited
+  partner_name: Fujitsu Limited
+  category: shippingFulfillmentAndLogistics, orderAndInventoryManagement, warehouseManagementSystem
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=29e6645b-fc26-4cf4-8cde-3020ecb6d35d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fujitsu
+  label: Fujitsu
+  partner_name: Fujitsu
+  category: eCommerce, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2a97b1c1-b64b-4d09-8ca8-5c8bc3b9e186
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-revers-io
+  label: Revers.io
+  partner_name: Revers.io
+  category: warrantyAndReturnsManagement, agentProductivity, caseManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2aef3136-f2c9-4c36-9066-759960b3dd53
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-osf-digital-summit-consulting-partner-for-agentic-enterprise-transformation
+  label: OSF Digital, Summit Consulting Partner for Agentic Enterprise Transformation
+  partner_name: OSF Digital, Summit Consulting Partner for Agentic Enterprise Transformation
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2be1b7f7-ccce-41fe-9f4b-025d954da605
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-synebo
+  label: Synebo
+  partner_name: Synebo
+  category: sales, commerce, collaboration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2be6d67c-a8b3-493c-bba9-2424d7efd836
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-aiopsgroup-a-valantic-company
+  label: AIOPSGROUP, a valantic company
+  partner_name: AIOPSGROUP, a valantic company
+  category: eCommerce, analytics, dashboardsAndReports
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2c1a1e08-7ea7-45bc-bc3e-aa5a30e96c37
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-esw
+  label: ESW
+  partner_name: ESW
+  category: eCommerce, shippingFulfillmentAndLogistics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2d468409-b59d-485a-8b1f-98c2c1ab01e9
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cloudshelf-limited
+  label: Cloudshelf limited
+  partner_name: Cloudshelf limited
+  category: commerce, liveCommerce, pointOfSaleAndInStore
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2e1911a2-8bc2-4eeb-9b95-45d9ce03c559
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-re-source
+  label: Re:Source
+  partner_name: Re:Source
+  category: salesIntelligence, paymentsProcessing, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2ebbaeab-64d1-4c2c-b8d9-6b2a148d43f0
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-thron-s-p-a
+  label: THRON S.p.a.
+  partner_name: THRON S.p.a.
+  category: productInformationManagement, integration, dataManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=307abc81-8ba3-41c9-94a9-b22e441698a7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-shoppinggives-by-cpgio
+  label: ShoppingGives by CPGIO
+  partner_name: ShoppingGives by CPGIO
+  category: eCommerce, marketing, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=30ff669c-0642-46ec-bc01-2171b4b2129c
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-clickatell
+  label: Clickatell
+  partner_name: Clickatell
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=3182a390-0381-4d83-b853-046e51710a4d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-zeals-co-ltd
+  label: Zeals Co. Ltd.
+  partner_name: Zeals Co. Ltd.
+  category: commerce, dataVisualization, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=3256db09-1232-469d-922c-f7f412377924
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-comestri
+  label: Comestri
+  partner_name: Comestri
+  category: eCommerce, customerService, dataManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=32ce2e46-2b22-43a0-9fc7-e011833cde59
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-emplifi
+  label: Emplifi
+  partner_name: Emplifi
+  category: eCommerce, analytics, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=33da5f44-4be5-4ff2-83d5-90fc8ec775c0
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-linvio-inc
+  label: Linvio, Inc.
+  partner_name: Linvio, Inc.
+  category: sales, commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=36924f0b-cfa6-4c54-ab53-566f9eed864f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-mollie-b-v
+  label: Mollie B.V.
+  partner: mollie
+  partner_name: Mollie B.V.
+  category: eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=36c467bc-e5ba-47e0-b72d-3f7c49333f70
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-annex-cloud
+  label: Annex Cloud
+  partner: annex-cloud
+  partner_name: Annex Cloud
+  category: eCommerce, pointOfSaleAndInStore, ratingsAndReviews
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=3703281c-71b9-4997-ab8c-97d29e3fe440
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-xtrm-inc
+  label: XTRM, Inc.
+  partner_name: XTRM, Inc.
+  category: partnerManagement, paymentsProcessing, loyalty
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=37240cf6-4031-480a-ab78-77cad432d7b4
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-citnow-group
+  label: CitNOW Group
+  partner_name: CitNOW Group
+  category: commerce, marketing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=3862929e-f252-4477-869d-e327878deb09
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ccv-group-b-v
+  label: CCV Group B.V.
+  partner_name: CCV Group B.V.
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=393edd1a-7b2c-416c-a177-8a3a13ae7dd4
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-baybridgedigital
+  label: BayBridgeDigital
+  partner_name: BayBridgeDigital
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=3e8e3a91-e7c9-4eb4-8a1d-6d80326b2e73
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-wolters-kluwer
+  label: Wolters Kluwer
+  partner_name: Wolters Kluwer
+  category: finance, accounting, eCommerce, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=3ea7e221-baa2-4b6b-95a6-c1b4b4971247
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cloud-maven-inc
+  label: Cloud Maven, Inc
+  partner_name: Cloud Maven, Inc
+  category: quotesAndOrders, accounting, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=4118a276-46b4-4246-a5d0-9b77210ca294
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-hipay-group
+  label: HiPay Group
+  partner: hipay
+  partner_name: HiPay Group
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=42719b14-18f5-4170-bd10-ae173339de77
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-newecom-ai-inc
+  label: NewEcom.ai Inc
+  partner_name: NewEcom.ai Inc
+  category: sales, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=42d139f8-3274-4e13-a8d4-1e7ce2b528d7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bridgeline-digital-inc
+  label: Bridgeline Digital Inc
+  partner_name: Bridgeline Digital Inc
+  category: sales, commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=43b5998c-954e-473b-a97b-bd67abc79bb3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cymbio-digital-ltd
+  label: Cymbio Digital Ltd
+  partner_name: Cymbio Digital Ltd
+  category: commerce, eCommerce, marketplace
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=442c8362-50ae-4f7f-beb5-63edf7a4855d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-extole-inc
+  label: Extole, Inc.
+  partner: extole
+  partner_name: Extole, Inc.
+  category: sales, eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=44b16a57-ae04-4c27-bbac-14246eb46def
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-automizely-pte-ltd
+  label: Automizely Pte. Ltd.
+  partner: aftership
+  partner_name: Automizely Pte. Ltd.
+  category: eCommerce, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=44cc3d38-44f9-495c-b6b3-e2a7c4fd6aaf
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-mercado-libre
+  label: Mercado Libre
+  partner_name: Mercado Libre
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=44cfb13c-d019-40b6-9a6d-790ed96aa176
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-intellicloud-solutions
+  label: IntelliCloud Solutions
+  partner_name: IntelliCloud Solutions
+  category: salesProductivity, productInformationManagement, adminAndDeveloperTools
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=46849b6b-9805-41e3-9660-78cc04645d61
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fenix-commerce-inc
+  label: Fenix Commerce Inc
+  partner_name: Fenix Commerce Inc
+  category: eCommerce, analytics, dashboardsAndReports, dataVisualization, websites, dataManagement, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=4774111e-31a2-409a-ae24-e6399e0119c7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-systema-ai
+  label: Systema AI
+  partner_name: Systema AI
+  category: eCommerce, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=479dbdab-8d7b-4ca1-a733-9a9d705ac10d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-web3-enabler-inc
+  label: Web3 Enabler, Inc.
+  partner_name: Web3 Enabler, Inc.
+  category: accounting, paymentsProcessing, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=48f0a214-c854-4d22-80b8-33e42042b3f4
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-sticky-io
+  label: sticky.io
+  partner_name: sticky.io
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=4a671fc6-051c-408c-b061-2293052eadae
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-contentful-inc
+  label: Contentful, Inc.
+  partner: contentful
+  partner_name: Contentful, Inc.
+  category: eCommerce, marketing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=4ad57c85-2962-426c-8a49-0d6b13f0e91f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-yotpo
+  label: Yotpo
+  partner: yotpo
+  partner_name: Yotpo
+  category: eCommerce, marketing, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=4b18c4d2-01a3-4bc5-9cbe-0d7b63e79c42
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-revshopp-inc
+  label: RevShopp, Inc.
+  partner_name: RevShopp, Inc.
+  category: commerce, personalization, loyalty
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=4cc4035e-5040-4bc5-a359-03215b527cd7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bluesnap-inc
+  label: BlueSnap Inc
+  partner_name: BlueSnap Inc
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=4d302262-7e73-4c29-81f2-7d8a6bfbce50
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-stripe-inc
+  label: Stripe, Inc.
+  partner_name: Stripe, Inc.
+  category: paymentsProcessing, subscriptions, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=4dff0f8e-0b10-47c2-a3a3-f3905e7f7927
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-datacolada-pty-ltd
+  label: DataColada Pty Ltd
+  partner_name: DataColada Pty Ltd
+  category: sales, finance, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=4eb2c291-524d-44a4-aaf3-1ace919c5d0e
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-diabolocom
+  label: Diabolocom
+  partner_name: Diabolocom
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=509771b8-c4d0-420e-8216-66146e625824
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-botify
+  label: Botify
+  partner_name: Botify
+  category: eCommerce, analytics, dashboardsAndReports, dataVisualization, marketing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=53382722-15b8-4c25-b81f-419d1dd80f85
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-link-financial-technologies
+  label: Link Financial Technologies
+  partner_name: Link Financial Technologies
+  category: accounting, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=546ce0d1-507c-4f5c-bb2c-a37420d9459f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-acommerce-group-limited
+  label: aCommerce Group Limited
+  partner_name: aCommerce Group Limited
+  category: eCommerce, integration, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=54f279fd-8418-42df-a284-e674d3d6aaa8
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-globebyte
+  label: Globebyte
+  partner_name: Globebyte
+  category: commerce, marketing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=557c92ad-8cdb-454c-9446-f67b36c92920
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-crownpeak
+  label: Crownpeak
+  partner_name: Crownpeak
+  category: eCommerce, marketing, personalization
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=56ba2958-4b3f-4230-bccf-75c92e6a7e3a
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-immerss
+  label: Immerss
+  partner_name: Immerss
+  category: eCommerce, chatAndWebConferencing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=570fd5bc-c2ba-42db-9cbe-cb0672010cbf
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-jumpr-solutions
+  label: Jumpr Solutions
+  partner_name: Jumpr Solutions
+  category: accounting, subscriptions, dashboardsAndReports
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5811276d-3fc2-4456-8c62-d6beee72a55c
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-venizum
+  label: Venizum
+  partner_name: Venizum
+  category: sales, commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=59d5468b-c93b-4a0b-bc04-fb4fabc4640f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-conscia-corporation
+  label: Conscia Corporation
+  partner_name: Conscia Corporation
+  category: commerce, marketing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5a2cb8bc-b923-4705-8a3b-a7e2a136c289
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-klaviyo
+  label: Klaviyo
+  partner_name: Klaviyo
+  category: eCommerce, marketing, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5a3d9246-3736-4c8d-88a4-18ac7035958c
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-sfa-solutions
+  label: SFA Solutions
+  partner_name: SFA Solutions
+  category: pointOfSaleAndInStore, shippingFulfillmentAndLogistics, productivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5a8f2147-f0d2-43d6-a0ce-300fcc989713
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-gocardless
+  label: GoCardless
+  partner: gocardless
+  partner_name: GoCardless
+  category: finance, accounting, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5bb0e06d-3865-42cf-a3d9-2eccd4c690d8
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-kasssh
+  label: Kasssh
+  partner_name: Kasssh
+  category: sales, commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5c0b6c03-0e96-4008-8f04-4a3d9d747dd6
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-sprocket-inc
+  label: Sprocket, Inc.
+  partner_name: Sprocket, Inc.
+  category: eCommerce, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5c14261a-34f5-43cb-895e-4b2b3ddb43b6
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-deck-commerce
+  label: Deck Commerce
+  partner_name: Deck Commerce
+  category: eCommerce, paymentsProcessing, customerService, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5ce62035-504b-44d2-9c05-e02c84781a3b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-edatalia-data-solutions-sl
+  label: edatalia data solutions SL.
+  partner_name: edatalia data solutions SL.
+  category: leadAndOpportunityManagement, pointOfSaleAndInStore, peopleManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5f2d35f0-5d31-42cc-b0da-8a5953bd4287
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-amla-commerce-inc
+  label: Amla Commerce Inc
+  partner_name: Amla Commerce Inc
+  category: eCommerce, personalization, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=5fde51b0-cd5b-4737-b5d6-d2c7e7f224f7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-shift4
+  label: Shift4
+  partner: shift4
+  partner_name: Shift4
+  category: paymentsProcessing, eCommerce, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=607a1511-ed91-4c13-89e6-8281127bee71
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-oddeven-infotech-llc
+  label: Oddeven Infotech LLC
+  partner_name: Oddeven Infotech LLC
+  category: eCommerce, itAndAdministration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=60b539a6-ecc8-4406-84c7-0379e1e6bc16
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-credit-corp-group-limited
+  label: CREDIT CORP GROUP LIMITED.
+  partner_name: CREDIT CORP GROUP LIMITED.
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=622f43f4-e93c-4482-9c88-29288a0afe2b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-yottaa
+  label: Yottaa
+  partner_name: Yottaa
+  category: eCommerce, analyticsAndSiteMonitoring, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=654c788e-5ab8-4788-8a01-7c4ebe2434a7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-verblux-com
+  label: Verblux.com
+  partner_name: Verblux.com
+  category: sales, salesProductivity, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=65be19f3-c629-4f7c-a06b-8ab3918e7536
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-translations-com
+  label: Translations.com
+  partner_name: Translations.com
+  category: eCommerce, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=66df9f21-6530-4827-ba41-f26f2f532c89
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-wikando-gmbh
+  label: Wikando GmbH
+  partner_name: Wikando GmbH
+  category: paymentsProcessing, campaignManagement, dataMigration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=693c15d7-a996-48b6-93ed-fcf0ad5aeb11
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-dotsquares
+  label: Dotsquares
+  partner_name: Dotsquares
+  category: commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=6947ec72-da4f-420f-b897-4333f675ebc1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-akeneo
+  label: Akeneo
+  partner: akeneo
+  partner_name: Akeneo
+  category: productInformationManagement, dataManagement, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=6a5fb20e-a23b-423c-91ae-4e29f6229d34
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fast-track-digital
+  label: Fast Track Digital
+  partner_name: Fast Track Digital
+  category: paymentsProcessing, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=6c11a859-da51-404f-b8d4-1b3598417754
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fedex
+  label: FedEx
+  partner_name: FedEx
+  category: eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=6c3a4749-43e1-41c2-826d-246a1f217a8a
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-id-me
+  label: ID.me
+  partner_name: ID.me
+  category: sales, eCommerce, marketing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=6c626cde-79a0-4a35-960d-34a696d842d5
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-redferns-tech-private-limited
+  label: RedFerns Tech Private Limited
+  partner_name: RedFerns Tech Private Limited
+  category: sales, finance, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=6d605bd9-de3c-49d3-9fa4-ec3caabd5d63
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-napster
+  label: Napster
+  partner_name: Napster
+  category: eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=6ef28c73-73c7-4dc6-8b60-f7b06685f170
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bildit
+  label: BILDIT
+  partner_name: BILDIT
+  category: eCommerce, marketplace, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=7040a24c-c4cb-4e05-891e-092a5a2b9b74
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-talkable
+  label: Talkable
+  partner_name: Talkable
+  category: eCommerce, analytics, marketing, campaignManagement, marketingAutomation, massEmailsAndMessaging, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=71f9e725-f5f5-43e0-8880-a8f6146a22ad
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-plazah
+  label: Plazah
+  partner_name: Plazah
+  category: sales, salesMethodologies, eCommerce, marketing, campaignManagement, chatAndWebConferencing, customerService,
+    agentProductivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=72fb0d85-df25-4885-a792-cb5e41b7ddb6
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-genix-ventures-pty-ltd
+  label: Genix Ventures Pty Ltd
+  partner_name: Genix Ventures Pty Ltd
+  category: commerce, analytics, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=74b812e5-6ff6-4cad-9177-e65853453098
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-treasure-data
+  label: Treasure Data
+  partner_name: Treasure Data
+  category: eCommerce, analytics, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=75b1e9d8-075e-4d1f-9650-51949d6f9657
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-radical-one
+  label: Radical One
+  partner_name: Radical One
+  category: eCommerce, paymentsProcessing, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=75cb989e-5ff1-4551-84ea-5752f6090091
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-centric-gateway
+  label: Centric Gateway
+  partner_name: Centric Gateway
+  category: sales, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=765ce165-932d-4053-b0f4-28adf41aeb81
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-simplr
+  label: Simplr
+  partner_name: Simplr
+  category: eCommerce, customerService, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=766cb6b3-e4a8-4599-b4a7-7614f71d5f4d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-otailo-returns-ltd
+  label: OtailO Returns LTD.
+  partner_name: OtailO Returns LTD.
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=76ba384b-5166-42cb-9919-ef71a511d9df
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bloomreach
+  label: Bloomreach
+  partner: bloomreach
+  partner_name: Bloomreach
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=77a10256-cc8c-47db-a590-76d0c87c46a7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-global-e-uk-ltd
+  label: Global-e UK LTD
+  partner_name: Global-e UK LTD
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=77ecb0de-1fd9-48e2-9d0b-40b065b248cc
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ksolves-india-limited
+  label: Ksolves India Limited
+  partner_name: Ksolves India Limited
+  category: eCommerce, marketplace, analytics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=781b738a-68b0-4a2d-aae2-e1612703e2d4
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-octopia
+  label: Octopia
+  partner_name: Octopia
+  category: sales, eCommerce, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=799c92a6-4967-4744-a5cb-4e399f0f96ef
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-onestock
+  label: OneStock
+  partner_name: OneStock
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=7a667583-6efb-4f0d-bc7c-39e473d6c1bb
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-contentstack
+  label: Contentstack
+  partner: contentstack
+  partner_name: Contentstack
+  category: eCommerce, marketing, contentManagementSystem
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=7b89bce6-65d8-4ccf-9c47-e3ff95a8cf3b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-digitsec-inc
+  label: DigitSec, Inc.
+  partner_name: DigitSec, Inc.
+  category: eCommerce, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=7c333b37-18b7-48fd-b153-c2c674104dbf
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-elyn
+  label: Elyn
+  partner_name: Elyn
+  category: eCommerce, shippingFulfillmentAndLogistics, warrantyAndReturnsManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=80130b19-ee12-4adf-9fdb-8f4f23db5584
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-avatria-a-transperfect-company
+  label: Avatria, a TransPerfect Company
+  partner_name: Avatria, a TransPerfect Company
+  category: eCommerce, analytics, dataManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=80b3405a-c6e8-4d25-8716-7e7deb8a70f6
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-builder-io-inc
+  label: Builder.io Inc
+  partner_name: Builder.io Inc
+  category: eCommerce, marketing, contentManagementSystem
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=812abe1a-f3f0-4598-905a-906147b2a212
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-mirakl
+  label: Mirakl
+  partner: mirakl
+  partner_name: Mirakl
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=819ff6e1-5e5e-4b1e-b0e2-a705c945efdd
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-changeup-inc
+  label: ChangeUp, Inc.
+  partner_name: ChangeUp, Inc.
+  category: sales, eCommerce, marketing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=81c55759-0c38-40a8-aed4-6d759d2c826d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-queue-it
+  label: Queue-it
+  partner_name: Queue-it
+  category: eCommerce, websites, adminAndDeveloperTools
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=8292b670-75eb-4a4d-9a6d-e6b339ff49e8
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-apruvd
+  label: Apruvd
+  partner_name: Apruvd
+  category: sales, accounting, eCommerce, customerService, adminAndDeveloperTools, integration, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=8345689b-4d3e-4757-a2f7-873ff383ed43
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ardn-cloud-solutions
+  label: Ardn Cloud Solutions
+  partner_name: Ardn Cloud Solutions
+  category: quotesAndOrders, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=86e1c1eb-cacc-4745-ae29-7fb5617ed555
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-brevity-software-solutions-pvt-ltd
+  label: Brevity Software Solutions Pvt. Ltd.
+  partner_name: Brevity Software Solutions Pvt. Ltd.
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=86ec6625-d74b-4b8c-a3ed-0aba9d66985d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-sparkdit-inc-a-delaware-company
+  label: Sparkdit Inc., a Delaware company
+  partner_name: Sparkdit Inc., a Delaware company
+  category: eCommerce, productInformationManagement, pointOfSaleAndInStore
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=877b7b51-3dab-4f0f-8649-58747b270fa7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-specialtales-inc
+  label: SpecialTales, Inc.
+  partner_name: SpecialTales, Inc.
+  category: sales, finance, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=8853d3f8-bc19-4762-8d81-29d5baf98e6f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-forter
+  label: Forter
+  partner: forter
+  partner_name: Forter
+  category: commerce, eCommerce, loyalty
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=899bdb39-126d-435a-aba9-642aa2fe0c91
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-c4-nexus
+  label: C4 Nexus
+  partner_name: C4 Nexus
+  category: commerce, paymentsProcessing, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=8a9f9ffd-2f55-4716-836d-b729e3a34bbb
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-kg-inicis
+  label: KG INICIS
+  partner_name: KG INICIS
+  category: sales, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=8acd3f23-b45f-49f0-854d-224182e460e1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-perimeterx
+  label: PerimeterX
+  partner_name: PerimeterX
+  category: finance, eCommerce, itManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=8c511edf-1363-474a-a094-c066e71f5b45
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-alta-futuris-solutions-llp
+  label: Alta-Futuris Solutions LLP
+  partner_name: Alta-Futuris Solutions LLP
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=8c5993fe-548e-43e1-a7a0-776d12197d59
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-delivery-solutions
+  label: Delivery Solutions
+  partner_name: Delivery Solutions
+  category: eCommerce, shippingFulfillmentAndLogistics, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=8f17012e-17c4-4164-b1e3-723981c99f8b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-friendbuy
+  label: Friendbuy
+  partner: friendbuy
+  partner_name: Friendbuy
+  category: eCommerce, loyalty, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=90271837-6ac7-4580-b053-5a9f9a948711
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-axolt
+  label: Axolt
+  partner_name: Axolt
+  category: sales, finance, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=92509e44-8d7e-4979-ac2e-1544574e9c97
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-nostra-inc
+  label: Nostra, Inc.
+  partner_name: Nostra, Inc.
+  category: eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=94932bf2-2cdb-42c4-8d6d-dee3ebbc28b0
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-portone
+  label: PortOne
+  partner: portone
+  partner_name: PortOne
+  category: eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=95697192-7e2f-41d9-8fe5-3ca04df31585
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-asklily
+  label: asklily
+  partner_name: asklily
+  category: eCommerce, dataVisualization, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=95cb2ec0-37cc-4e86-849f-088181871c92
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-listrak
+  label: Listrak
+  partner_name: Listrak
+  category: eCommerce, marketing, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=99119e8e-cf66-4a87-95c4-1771a33adb40
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ouiteo-technologies
+  label: Ouiteo Technologies
+  partner_name: Ouiteo Technologies
+  category: sales, commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=9b7e0077-82aa-42ad-b647-9ef5ecb2063b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-live-story-inc
+  label: Live Story Inc.
+  partner_name: Live Story Inc.
+  category: eCommerce, marketing, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=9bc57b3f-a91a-4ef6-881d-5e079cfcd4d8
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-revenova-llc
+  label: Revenova, LLC
+  partner_name: Revenova, LLC
+  category: shippingFulfillmentAndLogistics, processManagement, routePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=9bf75259-1c64-4cf4-b8c2-b626602e6fe3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-prefixbox
+  label: Prefixbox
+  partner_name: Prefixbox
+  category: eCommerce, analytics, personalization
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=9deab1f7-db44-4cdf-88ae-69f3a175d664
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-jifiti
+  label: Jifiti
+  partner_name: Jifiti
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=9f8ab206-6be8-48a4-bc42-29473ddbfd12
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-airrobe
+  label: AirRobe
+  partner_name: AirRobe
+  category: sales, eCommerce, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=9fa15ba0-cad5-4a95-bb43-1efc69b27666
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-commercient-llc
+  label: Commercient LLC
+  partner_name: Commercient LLC
+  category: sales, commerce, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000000ptLQEAY
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-melissa
+  label: Melissa
+  partner_name: Melissa
+  category: shippingFulfillmentAndLogistics, dataCleansing, dataManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000000pvskEAA
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-suiteretail-inc
+  label: SuiteRetail Inc
+  partner_name: SuiteRetail Inc
+  category: sales, commerce, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000000qdB1EAI
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-chargent-by-appfrontier-llc
+  label: Chargent by AppFrontier LLC
+  partner_name: Chargent by AppFrontier LLC
+  category: eCommerce, paymentsProcessing, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N300000016jrcEAA
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-zuora-inc
+  label: Zuora, Inc.
+  partner: zuora
+  partner_name: Zuora, Inc.
+  category: sales, salesIntelligence, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000171aEEAQ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-1440-more-success-minute
+  label: 1440 - More Success / Minute
+  partner_name: 1440 - More Success / Minute
+  category: eCommerce, customerService, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N300000019z6bEAA
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-provenworks
+  label: ProvenWorks
+  partner_name: ProvenWorks
+  category: shippingFulfillmentAndLogistics, dataCleansing, dataManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000001SqRFEA0
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-chikpea-inc
+  label: ChikPea Inc.
+  partner_name: ChikPea Inc.
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000001e2D0EAI
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-albany-software-limited
+  label: Albany Software Limited
+  partner_name: Albany Software Limited
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000001f65wEAA
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-kulturra-com-inc
+  label: Kulturra.com, Inc.
+  partner_name: Kulturra.com, Inc.
+  category: paymentsProcessing, subscriptions, fieldService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N300000030P1xEAE
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ida-apps
+  label: Ida Apps
+  partner_name: Ida Apps
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000003GETzEAO
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-nexternal-solutions
+  label: Nexternal Solutions
+  partner_name: Nexternal Solutions
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000003HW0dEAG
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-dodge-data-analytics
+  label: Dodge Data & Analytics
+  partner_name: Dodge Data & Analytics
+  category: sales, commerce, analytics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000004g5vZEAQ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-aakonsult-pty-ltd
+  label: AAkonsult Pty Ltd
+  partner_name: AAkonsult Pty Ltd
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N300000059H93EAE
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-juston
+  label: JustOn
+  partner_name: JustOn
+  category: finance, accounting, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000005trw7EAA
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-kognoz
+  label: Kognoz
+  partner_name: Kognoz
+  category: finance, accounting, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000005u0zhEAA
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-saasteps-llc
+  label: SAASTEPS, LLC
+  partner_name: SAASTEPS, LLC
+  category: quotesAndOrders, subscriptions, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000007rRGLEA2
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-smarterpay-limited
+  label: SmarterPay Limited
+  partner_name: SmarterPay Limited
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009uowvEAA
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-frisbii-app-for-salesforce
+  label: Frisbii App for Salesforce
+  partner_name: Frisbii App for Salesforce
+  category: quotesAndOrders, finance, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000009xZixEAE
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-vicasso
+  label: Vicasso
+  partner_name: Vicasso
+  category: ratingsAndReviews, surveys, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3LePEAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-expedite-commerce
+  label: Expedite Commerce
+  partner_name: Expedite Commerce
+  category: quotesAndOrders, finance, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B4HSSEA3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-virtualseller-com
+  label: VirtualSeller.com
+  partner_name: VirtualSeller.com
+  category: accounting, eCommerce, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B5CLJEA3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-airslate-inc
+  label: airSlate Inc.
+  partner_name: airSlate Inc.
+  category: contractManagement, commerce, humanResources
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B5E7FEAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-charityblocks
+  label: CharityBlocks
+  partner_name: CharityBlocks
+  category: commerce, marketing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B5XAXEA3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-aspire-technologies-inc
+  label: Aspire Technologies, Inc.
+  partner_name: Aspire Technologies, Inc.
+  category: quotesAndOrders, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B5l3wEAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-check21-com-llc
+  label: Check21.com LLC
+  partner_name: Check21.com LLC
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000DTx7gEAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-playable-inc
+  label: Playable, Inc.
+  partner_name: Playable, Inc.
+  category: commerce, marketing, massEmailsAndMessaging
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000DoIabUAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-blackthorn-io-inc
+  label: Blackthorn.io, Inc.
+  partner_name: Blackthorn.io, Inc.
+  category: accounting, paymentsProcessing, fieldService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000DvMqVUAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fundingo-inc
+  label: FUNDINGO, Inc.
+  partner_name: FUNDINGO, Inc.
+  category: paymentsProcessing, processManagement, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000DvOj2UAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cloud-masons
+  label: Cloud Masons
+  partner_name: Cloud Masons
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EFnwEUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-aircall
+  label: Aircall
+  partner_name: Aircall
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EFnzwUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-vocalcom
+  label: Vocalcom
+  partner_name: Vocalcom
+  category: sales, eCommerce, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EFoL1UAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-resonant-software-solutions
+  label: Resonant Software Solutions
+  partner_name: Resonant Software Solutions
+  category: ratingsAndReviews, chatAndWebConferencing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EGow8UAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-customertimes
+  label: Customertimes
+  partner_name: Customertimes
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EJHB6UAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-g2
+  label: G2
+  partner_name: G2
+  category: salesIntelligence, ratingsAndReviews, dashboardsAndReports
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EJaXvUAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-roller-smart-venue-software-run-your-venue-with-roller
+  label: ROLLER - Smart Venue Software | Run your venue with ROLLER
+  partner: roller
+  partner_name: ROLLER - Smart Venue Software | Run your venue with ROLLER
+  category: sales, commerce, orderAndInventoryManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EJbtBUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fonteva
+  label: Fonteva
+  partner_name: Fonteva
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EMb6eUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-wunderkind-corporation
+  label: Wunderkind Corporation
+  partner: wunderkind
+  partner_name: Wunderkind Corporation
+  category: commerce, analytics, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EOCq4UAH
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-enrollment-rx-llc
+  label: Enrollment Rx, LLC
+  partner_name: Enrollment Rx, LLC
+  category: eCommerce, marketplace, pointOfSaleAndInStore
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EOMwiUAH
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-pendula
+  label: Pendula
+  partner_name: Pendula
+  category: commerce, marketing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EORL7UAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-enxoo
+  label: Enxoo
+  partner_name: Enxoo
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcqknUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-unaric
+  label: Unaric
+  partner_name: Unaric
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-vertex-computer-systems-inc
+  label: Vertex Computer Systems, Inc.
+  partner_name: Vertex Computer Systems, Inc.
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrpBUAR
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-giveclarity-org-ltd
+  label: Giveclarity.org Ltd
+  partner_name: Giveclarity.org Ltd
+  category: finance, paymentsProcessing, productivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EfI08UAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bringing-solutions-ltd
+  label: Bringing Solutions Ltd
+  partner_name: Bringing Solutions Ltd
+  category: finance, accounting, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000ErFbRUAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-vertex-inc
+  label: Vertex Inc.
+  partner_name: Vertex Inc.
+  category: quotesAndOrders, finance, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EtEHwUAN
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ivy-mobility
+  label: Ivy Mobility
+  partner_name: Ivy Mobility
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EvMVyUAN
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-limio
+  label: Limio
+  partner_name: Limio
+  category: quotesAndOrders, subscriptions, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FA3kFUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-chargebee-inc
+  label: Chargebee Inc
+  partner: chargebee
+  partner_name: Chargebee Inc
+  category: contractManagement, paymentsProcessing, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FHCdzUAH
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-id-pal
+  label: ID-Pal
+  partner_name: ID-Pal
+  category: paymentsProcessing, agentProductivity, auditAndCompliance
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FKBHzUAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-opencell
+  label: Opencell
+  partner_name: Opencell
+  category: quotesAndOrders, paymentsProcessing, productivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMYevUAH
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-smijay-technologies
+  label: Smijay Technologies
+  partner_name: Smijay Technologies
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMd02UAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-hic-global-solutions
+  label: HIC Global Solutions
+  partner_name: HIC Global Solutions
+  category: salesProductivity, eCommerce, shippingFulfillmentAndLogistics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMdKyUAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-adyen-inc
+  label: Adyen Inc.
+  partner: adyen
+  partner_name: Adyen Inc.
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMdTNUA1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ibm-watson
+  label: IBM Watson
+  partner_name: IBM Watson
+  category: finance, commerce, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMfUeUAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cloudsense
+  label: CloudSense
+  partner_name: CloudSense
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMfYMUA1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-zilliant
+  label: Zilliant
+  partner_name: Zilliant
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMiIzUAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-avalara
+  label: Avalara
+  partner_name: Avalara
+  category: accounting, eCommerce, marketplace
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMiPDUA1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-paypal
+  label: PayPal
+  partner: paypal
+  partner_name: PayPal
+  category: paymentsProcessing, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMiRdUAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-qburst
+  label: QBurst
+  partner_name: QBurst
+  category: sales, contractManagement, forecasting, geolocation, partnerManagement, quotesAndOrders, salesIntelligence,
+    salesMethodologies, finance, accounting, compensationManagement, eCommerce, paymentsProcessing, analytics, dataCleansing,
+    dataVisualization, marketing, campaignManagement, eventManagement, marketingAutomation, massEmailsAndMessaging,
+    surveys, productivity, emailAndCalendarSync, projectManagement, customerService, agentProductivity, fieldService,
+    itAndAdministration, adminAndDeveloperTools, dataManagement, integration, itManagement, enterpriseResourcePlanning,
+    humanResources
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMialUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-storeconnect-pty-ltd
+  label: StoreConnect Pty Ltd
+  partner_name: StoreConnect Pty Ltd
+  category: eCommerce, pointOfSaleAndInStore, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMkeKUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-newstore-inc
+  label: NewStore, Inc.
+  partner: newstore
+  partner_name: NewStore, Inc.
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMlVCUA1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-vudoo
+  label: Vudoo
+  partner_name: Vudoo
+  category: finance, eCommerce, campaignManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMpZRUA1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-supplier-solutions
+  label: Supplier Solutions
+  partner_name: Supplier Solutions
+  category: eCommerce, integration, punchoutSystem
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMphRUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ordercentral-b-v
+  label: OrderCentral B.V
+  partner_name: OrderCentral B.V
+  category: eCommerce, paymentsProcessing, marketplace
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FR4NEUA1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cclink-mad-mobile
+  label: CCLINK:Mad Mobile
+  partner_name: CCLINK:Mad Mobile
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FR4mtUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-attentive
+  label: Attentive
+  partner: attentive
+  partner_name: Attentive
+  category: eCommerce, marketing, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FR4zUUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-funnel
+  label: Funnel
+  partner_name: Funnel
+  category: commerce, analytics, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FYDgNUAX
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-nps-today
+  label: nps.today
+  partner_name: nps.today
+  category: ratingsAndReviews, surveys, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FYfqLUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-shufti-pro-pvt-ltd
+  label: Shufti Pro pvt ltd
+  partner_name: Shufti Pro pvt ltd
+  category: eCommerce, paymentsProcessing, auditAndCompliance
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FYgc1UAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-astonous
+  label: Astonous
+  partner_name: Astonous
+  category: shippingFulfillmentAndLogistics, customerService, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FYgfoUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ticketure-llc
+  label: Ticketure LLC
+  partner_name: Ticketure LLC
+  category: sales, commerce, eventManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FYhKmUAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ardira
+  label: Ardira
+  partner_name: Ardira
+  category: ratingsAndReviews, surveys, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FYkISUA1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-quark-inc
+  label: Quark Inc
+  partner_name: Quark Inc
+  category: eCommerce, agentProductivity, fieldService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FZ6DSUA1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bonakodo-limited
+  label: Bonakodo Limited
+  partner_name: Bonakodo Limited
+  category: quotesAndOrders, finance, accounting, compensationManagement, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FeG2lUAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-visa-acceptance-solutions
+  label: Visa Acceptance Solutions
+  partner: visa-acceptance
+  partner_name: Visa Acceptance Solutions
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FeGiEUAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-red-hibbert-group-llc
+  label: Red Hibbert Group LLC
+  partner_name: Red Hibbert Group LLC
+  category: eCommerce, surveys, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FgcfqUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-eprodigy-financial-llc
+  label: eProdigy Financial LLC
+  partner_name: eProdigy Financial LLC
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FnDPQUA3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-narvar
+  label: Narvar
+  partner: narvar
+  partner_name: Narvar
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FtS6MUAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-talkative
+  label: Talkative
+  partner_name: Talkative
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FtWP2UAN
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cloudsquare
+  label: Cloudsquare
+  partner_name: Cloudsquare
+  category: sales, finance, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FvIdPUAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-emersion
+  label: Emersion
+  partner_name: Emersion
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FvMxtUAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cyntexa
+  label: Cyntexa
+  partner_name: Cyntexa
+  category: finance, paymentsProcessing, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0nnyUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-absolute-payment-solutions-ltd
+  label: Absolute Payment Solutions Ltd
+  partner_name: Absolute Payment Solutions Ltd
+  category: finance, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0u6SUAR
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-chloe-ai
+  label: Chloe.ai
+  partner_name: Chloe.ai
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0xhvUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-tohoom
+  label: Tohoom
+  partner_name: Tohoom
+  category: salesIntelligence, eCommerce, analytics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0xySUAR
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cloudinary
+  label: Cloudinary
+  partner_name: Cloudinary
+  category: eCommerce, marketing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0yFEUAZ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ordergroove
+  label: Ordergroove
+  partner: ordergroove
+  partner_name: Ordergroove
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0yJ1UAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-unified-a-r
+  label: Unified A/R
+  partner_name: Unified A/R
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0z4cUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-selas-technologies-llc
+  label: Selas Technologies, LLC
+  partner_name: Selas Technologies, LLC
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G5sykUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-vigience-inc
+  label: Vigience, Inc.
+  partner_name: Vigience, Inc.
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G5vD4UAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-dckap
+  label: DCKAP
+  partner_name: DCKAP
+  category: sales, eCommerce, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G9uPAUAZ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-enzigma
+  label: Enzigma
+  partner_name: Enzigma
+  category: ratingsAndReviews, productivity, adminAndDeveloperTools
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000GA9DqUAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-sapex-ai-solutions-pty-ltd
+  label: SApex.AI Solutions PTY LTD
+  partner_name: SApex.AI Solutions PTY LTD
+  category: quotesAndOrders, paymentsProcessing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000DYIExUAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-talon-one-gmbh
+  label: Talon.One GmbH
+  partner_name: Talon.One GmbH
+  category: eCommerce, marketing, campaignManagement, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000DZGFiUAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-signifyd
+  label: Signifyd
+  partner: signifyd
+  partner_name: Signifyd
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000DZSP2UAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-i95dev
+  label: i95Dev
+  partner_name: i95Dev
+  category: eCommerce, integration, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000DZTn3UAH
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-worldline-ecommerce-solutions-sprl-bvba
+  label: Worldline eCommerce Solutions SPRL/BVBA
+  partner_name: Worldline eCommerce Solutions SPRL/BVBA
+  category: eCommerce, paymentsProcessing, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000DZVrOUAX
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-foodspace
+  label: foodspace
+  partner_name: foodspace
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000FND6cUAH
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-mapsly-llc
+  label: Mapsly LLC
+  partner_name: Mapsly LLC
+  category: geolocation, shippingFulfillmentAndLogistics, routePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000FZblJUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cypress-learning-solutions-inc
+  label: Cypress Learning Solutions, Inc
+  partner_name: Cypress Learning Solutions, Inc
+  category: sales, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000FguBiUAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fern-computer-services-limited
+  label: FERN COMPUTER SERVICES LIMITED
+  partner_name: FERN COMPUTER SERVICES LIMITED
+  category: contractManagement, finance, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000FguCCUAZ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-commercecx-inc
+  label: CommerceCX Inc
+  partner_name: CommerceCX Inc
+  category: contractManagement, quotesAndOrders, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000Fgv1DUAR
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-n-tive-vms
+  label: Nétive VMS
+  partner_name: Nétive VMS
+  category: sales, commerce, productivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000FhLeHUAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cloudworx-gmbh
+  label: cloudworx GmbH
+  partner_name: cloudworx GmbH
+  category: finance, accounting, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000FqQoGUAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-mira-innovations-pty-ltd
+  label: MIRA Innovations Pty Ltd
+  partner_name: MIRA Innovations Pty Ltd
+  category: commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000Fz0VGUAZ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-vartopia
+  label: Vartopia
+  partner_name: Vartopia
+  category: compensationManagement, paymentsProcessing, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000G15ZrUAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-maxio-previously-chargify
+  label: Maxio previously Chargify
+  partner: maxio
+  partner_name: Maxio previously Chargify
+  category: finance, accounting, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000G5xggUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-nimbus3
+  label: Nimbus3
+  partner_name: Nimbus3
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000G6ghLUAR
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-liveperson-inc
+  label: LivePerson, Inc.
+  partner_name: LivePerson, Inc.
+  category: eCommerce, chatAndWebConferencing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000G6oGuUAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-tally-integrations-llc
+  label: Tally Integrations LLC
+  partner_name: Tally Integrations LLC
+  category: accounting, paymentsProcessing, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000G6qhdUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-optty
+  label: Optty
+  partner_name: Optty
+  category: sales, eCommerce, paymentsProcessing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GHbj7UAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-trackme
+  label: TrackMe
+  partner_name: TrackMe
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GTkZ6UAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-coremedia-gmbh
+  label: CoreMedia GmbH
+  partner_name: CoreMedia GmbH
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GTpfCUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-freeing-returns
+  label: Freeing Returns
+  partner_name: Freeing Returns
+  category: eCommerce, dashboardsAndReports, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GU2wwUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bambuser
+  label: Bambuser
+  partner_name: Bambuser
+  category: sales, eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GV76FUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-walmart-commerce-technologies
+  label: Walmart Commerce Technologies
+  partner_name: Walmart Commerce Technologies
+  category: eCommerce, shippingFulfillmentAndLogistics, orderAndInventoryManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GVKZjUAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-idyaflow-inc
+  label: IdyaFlow Inc.
+  partner_name: IdyaFlow Inc.
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GWqXlUAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-addonblue-inc
+  label: Addonblue Inc
+  partner_name: Addonblue Inc
+  category: commerce, paymentsProcessing, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GbghAUAR
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-renderdraw
+  label: RenderDraw
+  partner_name: RenderDraw
+  category: productInformationManagement, customerService, fieldService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GcIf0UAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-checkout-com
+  label: Checkout.com
+  partner: checkout-com
+  partner_name: Checkout.com
+  category: eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000Gccy9UAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-elevent
+  label: Elevent
+  partner_name: Elevent
+  category: commerce, pointOfSaleAndInStore, eventManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GeKmvUAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-nomination
+  label: NOMINATION
+  partner_name: NOMINATION
+  category: salesIntelligence, commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000Gk5opUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-nuvei
+  label: Nuvei
+  partner: nuvei
+  partner_name: Nuvei
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GkWyDUAV
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-incountry-inc
+  label: InCountry Inc.
+  partner_name: InCountry Inc.
+  category: commerce, customerService, itAndAdministration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000Gl7JfUAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-poq-commerce
+  label: Poq Commerce
+  partner_name: Poq Commerce
+  category: commerce, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GmWFxUAN
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-sogolytics
+  label: Sogolytics
+  partner_name: Sogolytics
+  category: ratingsAndReviews, surveys
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GmXi8UAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-hive-cpq
+  label: Hive CPQ
+  partner_name: Hive CPQ
+  category: sales, eCommerce, documentGeneration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GmZ9fUAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-nue-io
+  label: Nue.io
+  partner_name: Nue.io
+  category: quotesAndOrders, contractManagement, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GoyN2UAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-zonka-feedback
+  label: Zonka Feedback
+  partner_name: Zonka Feedback
+  category: ratingsAndReviews, surveys, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GuDURUA3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-thinglogix-inc
+  label: ThingLogix Inc
+  partner_name: ThingLogix Inc
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000H3SGhUAN
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-idea-vouch
+  label: Idea Vouch
+  partner_name: Idea Vouch
+  category: sales, finance, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HDbjvUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-wallee-ag
+  label: Wallee AG
+  partner_name: Wallee AG
+  category: finance, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HFEX9UAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-authvia
+  label: Authvia
+  partner_name: Authvia
+  category: accounting, paymentsProcessing, fieldService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HI1mpUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-blutag-inc
+  label: Blutag, Inc.
+  partner_name: Blutag, Inc.
+  category: sales, salesIntelligence, salesMethodologies, eCommerce, marketing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HKUt5UAH
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-firework
+  label: Firework
+  partner: firework
+  partner_name: Firework
+  category: eCommerce, marketing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HKXHsUAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-advanced-communities
+  label: Advanced Communities
+  partner_name: Advanced Communities
+  category: paymentsProcessing, dashboardsAndReports, campaignManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HNCJJUA5
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-pimly-inc
+  label: Pimly Inc.
+  partner_name: Pimly Inc.
+  category: commerce, dataManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HNqqaUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-happy-returns
+  label: Happy Returns
+  partner_name: Happy Returns
+  category: eCommerce, customerService, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HOhw1UAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-loqate
+  label: Loqate
+  partner_name: Loqate
+  category: eCommerce, dataCleansing, dataManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HOiI0UAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-tradecentric-llc
+  label: TradeCentric, LLC
+  partner_name: TradeCentric, LLC
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HRJKeUAP
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-reda-one-llc
+  label: REDA One LLC
+  partner_name: REDA One LLC
+  category: finance, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HZWBKUA5
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-creo-solutions
+  label: Creo Solutions
+  partner_name: Creo Solutions
+  category: finance, accounting, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HZX08UAH
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cds-visual
+  label: CDS Visual
+  partner_name: CDS Visual
+  category: quotesAndOrders, eCommerce, fieldService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HZbjGUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-yelido
+  label: Yelido
+  partner_name: Yelido
+  category: sales, finance, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HrlTUUAZ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-element-ams-inc
+  label: Element AMS Inc.
+  partner_name: Element AMS Inc.
+  category: accounting, paymentsProcessing, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000I4drKUAR
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-apex-tech
+  label: Apex Tech
+  partner_name: Apex Tech
+  category: sales, productInformationManagement, adminAndDeveloperTools
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IEUWGUA5
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-i2h-llc-dba-ambassador-software
+  label: i2H LLC dba Ambassador Software
+  partner_name: i2H LLC dba Ambassador Software
+  category: sales, eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IS49NUAT
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-amazon-web-services-partner-network
+  label: Amazon Web Services (Partner Network)
+  partner_name: Amazon Web Services (Partner Network)
+  category: sales, commerce, analytics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IYf0nUAD
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-develoci-commerce-intelligence-development
+  label: Develoci - Commerce Intelligence Development
+  partner_name: Develoci - Commerce Intelligence Development
+  category: sales, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IkwFrUAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-maxxing
+  label: Maxxing
+  partner_name: Maxxing
+  category: eCommerce, marketing, campaignManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IkyMTUAZ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-hansen-technologies
+  label: Hansen Technologies
+  partner_name: Hansen Technologies
+  category: quotesAndOrders, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IkzYUUAZ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-parka-solutions-inc
+  label: Parka Solutions, Inc.
+  partner_name: Parka Solutions, Inc.
+  category: eCommerce, analytics, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IrGHMUA3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-propel
+  label: Propel
+  partner: propelplm
+  partner_name: Propel
+  category: eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IrJYhUAN
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-aspire-systems-inc
+  label: Aspire Systems Inc
+  partner_name: Aspire Systems Inc
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IrKGNUA3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-pricing-machines-as
+  label: Pricing Machines AS
+  partner_name: Pricing Machines AS
+  category: salesIntelligence, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000Iu5ksUAB
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-paazl-b-v
+  label: Paazl B.V.
+  partner_name: Paazl B.V.
+  category: eCommerce, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000IyeBrUAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-twistellar
+  label: Twistellar
+  partner_name: Twistellar
+  category: sales, quotesAndOrders, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000J66MiUAJ
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-99minds-inc
+  label: 99minds Inc
+  partner_name: 99minds Inc
+  category: eCommerce, paymentsProcessing, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000J6Jc3UAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-april-solutions
+  label: April Solutions
+  partner_name: April Solutions
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000J6MphUAF
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-mbit
+  label: MBIT
+  partner_name: MBIT
+  category: finance, commerce, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000JBzM5UAL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-novalnet-ag
+  label: Novalnet AG
+  partner_name: Novalnet AG
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000JFAoKUAX
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-amplience
+  label: Amplience
+  partner_name: Amplience
+  category: eCommerce, productivity, contentManagementSystem
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a1040c49-8374-47cc-a5c9-cc11ff24d251
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cclink-zinrelo
+  label: CCLINK:Zinrelo
+  partner_name: CCLINK:Zinrelo
+  category: eCommerce, marketing, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a10d29f9-ed78-4f3a-842d-3948fab0c4f1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-uniform-systems-inc
+  label: Uniform Systems Inc
+  partner: uniform
+  partner_name: Uniform Systems Inc
+  category: eCommerce, marketing, websites, adminAndDeveloperTools, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a183a82f-f78b-4a0d-8ede-4a0c909c3591
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-j-p-morgan
+  label: J.P.Morgan
+  partner_name: J.P.Morgan
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a28e199c-64bc-4efa-859b-bbf0fdc4535c
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-litmus7-systems-consulting-inc
+  label: Litmus7 Systems Consulting Inc.
+  partner_name: Litmus7 Systems Consulting Inc.
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a536f494-8008-4b5e-9149-da0aa7b6bcf1
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-extend
+  label: Extend
+  partner: extend
+  partner_name: Extend
+  category: sales, eCommerce, customerService, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a6f21eef-75d4-4d81-9521-0bb5f55adeae
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-on4u-global-services-s-l
+  label: On4u Global Services S.L.
+  partner_name: On4u Global Services S.L.
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a7371111-3d75-41a4-859b-197e37c73bf9
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-noibu
+  label: Noibu
+  partner_name: Noibu
+  category: eCommerce, analyticsAndSiteMonitoring, developerTools
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a82edd3f-ccc3-4a1a-9db2-cc570366c6b5
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-krish-technolabs
+  label: Krish TechnoLabs
+  partner_name: Krish TechnoLabs
+  category: commerce, marketing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a8ce3f65-79b0-45cc-ab46-5cb9f48ec8ef
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-rally-commerce-inc
+  label: Rally Commerce, Inc
+  partner_name: Rally Commerce, Inc
+  category: sales, commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a99ac1c5-6bed-44dd-a347-19a3b092fb0f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bazaarvoice
+  label: Bazaarvoice
+  partner: bazaarvoice
+  partner_name: Bazaarvoice
+  category: eCommerce, marketing, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=aad0ab52-f5bd-4dc7-ba20-e5706c6a32ce
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-perfaware-llc
+  label: Perfaware LLC
+  partner_name: Perfaware LLC
+  category: commerce, orderAndInventoryManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ae2a69b9-c550-4950-aab6-240e4e400e41
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-constructor
+  label: Constructor
+  partner: constructorio
+  partner_name: Constructor
+  category: sales, salesIntelligence, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ae2be66d-7c97-4a82-99f6-a3dd97298c8b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cedcommerce
+  label: CedCommerce
+  partner_name: CedCommerce
+  category: eCommerce, feeds
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ae4b5114-36c6-42ac-9010-a1c6a8471468
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-threedium-ltd
+  label: Threedium LTD
+  partner_name: Threedium LTD
+  category: commerce, eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ae7f8e59-8692-469e-8f8a-885f9b78ad94
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-locally-com
+  label: Locally.com
+  partner_name: Locally.com
+  category: eCommerce, marketing, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=afb9c9d7-68c6-4fc8-9973-447857a0e6ac
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-posimente-pty-ltd
+  label: Posimente Pty Ltd
+  partner_name: Posimente Pty Ltd
+  category: finance, paymentsProcessing, productivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=afe9b1a5-0704-4078-a642-a74e73fa3e2e
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-worldapp-inc
+  label: WorldAPP, Inc.
+  partner_name: WorldAPP, Inc.
+  category: salesIntelligence, salesProductivity, pointOfSaleAndInStore
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=b2a2aefa-cae2-45d6-a757-477bfaa96a1b
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-sezzle
+  label: Sezzle
+  partner: sezzle
+  partner_name: Sezzle
+  category: sales, eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=b4ddb5c9-3752-4eec-8f8b-2b406597f375
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-flaunt-software-inc
+  label: Flaunt Software, Inc.
+  partner_name: Flaunt Software, Inc.
+  category: eCommerce, marketing, marketingAutomation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=b51683bd-8c75-45a6-b996-241e38a8df2e
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-pipe17-inc
+  label: Pipe17, Inc.
+  partner_name: Pipe17, Inc.
+  category: eCommerce, integration, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=b587db7f-683d-45fe-aa05-3ca025347975
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-subscribe-pro
+  label: Subscribe Pro
+  partner_name: Subscribe Pro
+  category: eCommerce, subscriptions
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=b76a256b-d22a-4d86-bb37-3e6939e2d376
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-coveo
+  label: Coveo
+  partner: coveo
+  partner_name: Coveo
+  category: commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=b78a9239-2ba4-4815-ad85-53fac42de5ba
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-worldpay
+  label: Worldpay
+  partner: worldpay
+  partner_name: Worldpay
+  category: eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=b84e930e-9eb7-49b6-9868-cfc251a0a7b7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-zip-co
+  label: Zip Co
+  partner: zip-co
+  partner_name: Zip Co
+  category: paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=b9483af6-6885-4d28-b162-17ef4e90cf20
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-retailtune-srl
+  label: RetailTune Srl
+  partner_name: RetailTune Srl
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=bd3bd977-a75b-4f58-b6b4-1df450958164
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-nexi-payments-spa
+  label: Nexi Payments Spa
+  partner_name: Nexi Payments Spa
+  category: eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=bd869f9b-698d-4aff-bf71-5bcaa28d2ce4
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-fundraise-up
+  label: Fundraise Up
+  partner: fundraiseup
+  partner_name: Fundraise Up
+  category: paymentsProcessing, dashboardsAndReports, campaignManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=bee72b5c-36a6-4ec8-b0b0-322875c7826d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-dhee-products
+  label: Dhee Products
+  partner_name: Dhee Products
+  category: sales, commerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=bff6a9c5-77e9-4a26-8bba-c1545c693904
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cclink-clearsale-llc
+  label: CCLINK:ClearSale LLC
+  partner_name: CCLINK:ClearSale LLC
+  category: finance, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=c0910b3c-e491-487e-b354-84e8c73bd418
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-miniorange
+  label: miniOrange
+  partner_name: miniOrange
+  category: eCommerce, customerService, peopleManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=c1b38278-a0b6-493c-9347-11930801218f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-increff
+  label: Increff
+  partner_name: Increff
+  category: eCommerce, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=c2032ad7-daf5-49d8-8a46-6978bd672cb3
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-tejas-software-inc
+  label: Tejas Software, Inc.
+  partner_name: Tejas Software, Inc.
+  category: shippingFulfillmentAndLogistics, orderAndInventoryManagement, warehouseManagementSystem
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=c5f910ea-5f36-4605-8eb3-c6b6def6a1eb
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-humm-flexigroup
+  label: Humm (Flexigroup)
+  partner_name: Humm (Flexigroup)
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=c7dd97f2-f5da-4a50-a292-8154417f9a86
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-vonage
+  label: Vonage
+  partner_name: Vonage
+  category: commerce, customerService, itAndAdministration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=c7e840ea-21d9-4ddb-8536-d3b71d99c6e7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-zakeke
+  label: Zakeke
+  partner_name: Zakeke
+  category: quotesAndOrders, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=c817f620-9d59-40ff-a4fd-9a6968f6fdab
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cclink-kount-inc
+  label: CCLINK:Kount Inc
+  partner: kount
+  partner_name: CCLINK:Kount Inc
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=c958b084-bc8b-4a19-95ee-eed11a3d6935
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-shipperhq
+  label: ShipperHQ
+  partner_name: ShipperHQ
+  category: eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ce3c174c-59e8-46a7-b418-ce1256d57b22
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-klevu-oy
+  label: Klevu Oy
+  partner_name: Klevu Oy
+  category: eCommerce, personalization, conversationalCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d0b25b56-a380-4114-80c5-f1dc22272e2f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bnp-paribas
+  label: BNP PARIBAS
+  partner_name: BNP PARIBAS
+  category: eCommerce, paymentsProcessing, dashboardsAndReports
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d191bd5b-44ad-4220-9982-f663e45ec8fd
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-gr4vy
+  label: Gr4vy
+  partner: gr4vy
+  partner_name: Gr4vy
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d2d4ce39-ea78-46c5-a260-1ce874f4a310
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-cleartelligence
+  label: Cleartelligence
+  partner_name: Cleartelligence
+  category: commerce, analytics, enterpriseResourcePlanning
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d3869a26-c760-4d0a-aee2-2097a7e82f50
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-dropit-shopping-limited
+  label: Dropit Shopping Limited
+  partner_name: Dropit Shopping Limited
+  category: commerce, analytics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d39189b5-b5e4-45c6-84ed-3b28741c9c43
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-upgrade-inc
+  label: Upgrade, Inc.
+  partner_name: Upgrade, Inc.
+  category: eCommerce, paymentsProcessing, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d571ed83-2712-4a43-a30f-9147fb03b375
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-juno-rocket
+  label: Juno Rocket
+  partner_name: Juno Rocket
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d644ccac-ec08-48ce-8a02-c93dab49f951
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-revoptic
+  label: RevOptic
+  partner_name: RevOptic
+  category: finance, commerce, analytics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d6c54149-78d9-45fe-9c77-5bd715a202fa
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-riskified
+  label: Riskified
+  partner: riskified
+  partner_name: Riskified
+  category: finance, eCommerce, paymentsProcessing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d719d10c-198a-4d46-9df8-c4a8920c023e
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-legendary-supply-chain-inc
+  label: Legendary Supply Chain, Inc.
+  partner_name: Legendary Supply Chain, Inc.
+  category: shippingFulfillmentAndLogistics, warehouseManagementSystem
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d82e2f95-f560-4254-8961-ba517d7d7351
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-till-payments
+  label: Till Payments
+  partner: till-payments
+  partner_name: Till Payments
+  category: sales, paymentsProcessing, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d925a5cb-6f80-4276-968e-60059030ae0c
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-zobrist-software-group-inc
+  label: Zobrist Software Group, Inc.
+  partner_name: Zobrist Software Group, Inc.
+  category: commerce, analytics, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=dc9d2573-c227-4a91-987e-bbdb85d42e53
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-branding-brand-inc
+  label: Branding Brand, Inc.
+  partner: branding-brand
+  partner_name: Branding Brand, Inc.
+  category: eCommerce, marketing, loyalty
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=dcb16a9c-3d87-4d0e-a607-7256fec7ace6
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-givecloud
+  label: Givecloud
+  partner_name: Givecloud
+  category: paymentsProcessing, analytics, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=dfce2e14-3fab-4cb0-9f63-e04ed4624e65
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-bridge-gpt
+  label: Bridge GPT
+  partner_name: Bridge GPT
+  category: commerce, eCommerce, conversationalCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=e061e89f-ec49-4861-b27c-440f5c783bc7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-buy-with-prime
+  label: Buy with Prime
+  partner_name: Buy with Prime
+  category: eCommerce, shippingFulfillmentAndLogistics, ratingsAndReviews
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=e317e1cb-6ac5-4be9-a7bd-5a59ac6c221c
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-tackle-io
+  label: Tackle.io
+  partner: tackleio
+  partner_name: Tackle.io
+  category: sales, marketplace, processManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=e337319f-0001-4b18-b4d1-14e11fd761dc
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-peeklogic
+  label: Peeklogic
+  partner_name: Peeklogic
+  category: compensationManagement, accounting, commerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=e76b980e-c76a-4d1c-8bf6-89cf8397bf7f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-iequalchange-pty-ltd
+  label: iEqualChange Pty Ltd
+  partner_name: iEqualChange Pty Ltd
+  category: sales, eCommerce, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=e8108bff-9990-4914-9f71-31d55639ca3f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-belladati
+  label: belladati
+  partner_name: belladati
+  category: commerce, productivity, itAndAdministration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=e9d07434-bb49-4d56-a74b-d5963eaeeec7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-the-commerce-team-global
+  label: The Commerce Team Global
+  partner_name: The Commerce Team Global
+  category: commerce, marketing, productivity
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ea5b7ade-84dd-4077-806e-beed394a969e
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-zebra-technologies
+  label: Zebra Technologies
+  partner_name: Zebra Technologies
+  category: sales, pointOfSaleAndInStore, fieldService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ea89c734-6a13-4086-b130-5ba7edef1743
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-findmine
+  label: FINDMINE
+  partner_name: FINDMINE
+  category: sales, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ed9d9aaa-7f1c-490b-adcd-40153079758d
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-woosmap
+  label: Woosmap
+  partner_name: Woosmap
+  category: commerce, marketing, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=eec11779-da20-498f-af58-0c050dfc32a9
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-dqe
+  label: DQE
+  partner_name: DQE
+  category: eCommerce, dataCleansing, dataManagement
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=f0cd2833-ca07-48fc-a038-cfa8fefedddd
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-returngo
+  label: ReturnGO
+  partner_name: ReturnGO
+  category: sales, eCommerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=f11e6568-bf7f-4fb4-a5c2-6eb089a34130
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-kollectiv-ltd
+  label: Kollectiv Ltd
+  partner_name: Kollectiv Ltd
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=f282fa0a-3997-49c5-8bd6-54d52abc3db7
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-expivi
+  label: Expivi
+  partner_name: Expivi
+  category: quotesAndOrders, commerce, eCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=f64e9744-96cc-400c-b658-beb56f7c545e
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-ms2-technologies
+  label: MS2 Technologies
+  partner_name: MS2 Technologies
+  category: sales, commerce, customerService
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=f72594b9-9049-4c7a-b80e-60a3287091ee
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-red-van-workshop
+  label: Red Van Workshop
+  partner_name: Red Van Workshop
+  category: commerce, analytics, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=f752ef1e-b11b-40d4-bfdd-9d9cd2f247cd
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-lyra-network
+  label: Lyra Network
+  partner_name: Lyra Network
+  category: commerce, integration
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=f958afe0-a5ee-45d9-9b54-6d12010f9014
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-f5-inc
+  label: F5, Inc.
+  partner_name: F5, Inc.
+  category: sales, eCommerce, websites
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=fa256034-5f1b-4b7f-86b5-12c3aa231dc8
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-accertify-inc
+  label: Accertify, Inc.
+  partner_name: Accertify, Inc.
+  category: eCommerce, warrantyAndReturnsManagement, analytics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=fa7f9514-4cad-451d-b40c-1d45cade0d3f
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-rezolve-ai
+  label: Rezolve Ai
+  partner_name: Rezolve Ai
+  category: commerce, eCommerce, conversationalCommerce
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=fbe9fc6f-39cf-4198-ae36-662a3f5fa457
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-affirm
+  label: Affirm
+  partner_name: Affirm
+  category: eCommerce, paymentsProcessing, marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ff19e3d4-0dc5-4196-a3a3-71132475ed88
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: salesforce-commerce-cloud-digitaleo
+  label: Digitaleo
+  partner_name: Digitaleo
+  category: pointOfSaleAndInStore, marketing, loyalty
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=ff58f620-dba3-4903-89bd-160320458fb8
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
