@@ -20,6 +20,12 @@ checked:
 - https://printify.com/integrations/
 - https://www.bigcommerce.com/apps/
 - https://www.printful.com/integrations
+- https://api.appexchange.salesforce.com/recommendations/v3/listings?type=apps
+- https://api.appexchange.salesforce.com/recommendations/v3/listings?type=consultants
+- https://appexchange.salesforce.com/
+- https://appexchange.salesforce.com/consulting
+- https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packagingGuide/security_review_overview.htm
+- https://slack.com/marketplace
 summary: null
 marketplace_apps: []
 edges:
@@ -7843,4 +7849,163 @@ edges:
   detected_by: sweep-mach-headless-commerce.py
   detected: '2026-10-20'
   partner_url: https://www.digitaleo.com/
+- partner_name: Experian
+  app: 'Experian Data Validation for B2C Commerce Cloud: Address, email, & phone numbers'
+  apps:
+  - 'Experian Data Validation for B2C Commerce Cloud: Address, email, & phone numbers'
+  listing_count: 1
+  partner: experian
+  partner_match: domain+name-among-holders
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMkPSUA1
+  category: dataCleansing
+  partner_url: http://www.experian.com
+  technology:
+  - b2c-commerce/package
+  signal_note: AppExchange listing (publisher website from the listing's own public JSON); listing count and app
+    names are context, never counted
+  detected_by: sweep-salesforce-appexchange.py
+  detected: '2026-10-21'
+- partner_name: Antavo
+  app: 'Antavo Loyalty for B2C Commerce: Loyalty Programs, Points and Rewards'
+  apps:
+  - 'Antavo Loyalty for B2C Commerce: Loyalty Programs, Points and Rewards'
+  listing_count: 1
+  partner: null
+  partner_match: null
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=d404dabe-a5b2-427e-bdda-53fee2c7416f
+  category: marketing
+  partner_url: https://antavo.com/
+  technology:
+  - b2c-commerce/package
+  signal_note: AppExchange listing (publisher website from the listing's own public JSON); listing count and app
+    names are context, never counted
+  detected_by: sweep-salesforce-appexchange.py
+  detected: '2026-10-21'
+  partner_held:
+    candidate: antavo
+    why: 'market-fit gate: partner''s own tags carry no CRM / sales / outbound / workflow / business-process term'
+- partner_name: Dotdigital
+  app: Dotdigital Cross-Channel Marketing Automation Cartridge for B2C Commerce
+  apps:
+  - Dotdigital Cross-Channel Marketing Automation Cartridge for B2C Commerce
+  listing_count: 1
+  partner: dotdigital
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=adb5261d-4be4-4d1f-9dc6-4c1adaf61133
+  category: campaignManagement
+  partner_url: https://www.dotdigital.com
+  technology:
+  - b2c-commerce/package
+  signal_note: AppExchange listing (publisher website from the listing's own public JSON); listing count and app
+    names are context, never counted
+  detected_by: sweep-salesforce-appexchange.py
+  detected: '2026-10-21'
+- partner_name: DataDome
+  app: DataDome Bot & Agent Trust Management Cartridge for B2C Commerce
+  apps:
+  - DataDome Bot & Agent Trust Management Cartridge for B2C Commerce
+  listing_count: 1
+  partner: null
+  partner_match: null
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=6dfa8305-611a-4752-8bd5-b51e0144a80a
+  category: dashboardsAndReports
+  partner_url: https://datadome.co/
+  technology:
+  - b2c-commerce/package
+  signal_note: AppExchange listing (publisher website from the listing's own public JSON); listing count and app
+    names are context, never counted
+  detected_by: sweep-salesforce-appexchange.py
+  detected: '2026-10-21'
+  partner_held:
+    candidate: datadome
+    why: 'market-fit gate: partner''s own tags carry no CRM / sales / outbound / workflow / business-process term'
+- partner_name: Emarsys part of SAP
+  app: SAP Emarsys Customer Engagement Cartridge for B2C Commerce
+  apps:
+  - SAP Emarsys Customer Engagement Cartridge for B2C Commerce
+  listing_count: 1
+  partner: emarsys
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=2dd2fb1c-c4c7-4dad-80ef-2de3fe2e939b
+  category: marketing
+  partner_url: http://www.emarsys.com
+  technology:
+  - b2c-commerce/package
+  signal_note: AppExchange listing (publisher website from the listing's own public JSON); listing count and app
+    names are context, never counted
+  detected_by: sweep-salesforce-appexchange.py
+  detected: '2026-10-21'
+- partner_name: Pinterest
+  app: Pinterest for Salesforce B2C Commerce
+  apps:
+  - Pinterest for Salesforce B2C Commerce
+  listing_count: 1
+  partner: null
+  partner_match: null
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=1ed5ac60-0a1b-4c6c-bd96-9037e27dd2e9
+  category: marketing
+  partner_url: https://www.pinterest.com
+  technology:
+  - b2c-commerce/package
+  signal_note: AppExchange listing (publisher website from the listing's own public JSON); listing count and app
+    names are context, never counted
+  detected_by: sweep-salesforce-appexchange.py
+  detected: '2026-10-21'
+  partner_held:
+    candidate: pinterest
+    why: 'market-fit gate: partner''s own tags carry no CRM / sales / outbound / workflow / business-process term'
+- partner_name: Salsify
+  app: Salsify Product Experience Management for B2C Commerce
+  apps:
+  - Salsify Product Experience Management for B2C Commerce
+  listing_count: 1
+  partner: null
+  partner_match: null
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: partner-built
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=012b782d-e122-474e-9a0c-43f0760b2862
+  category: feeds
+  partner_url: https://www.salsify.com
+  technology:
+  - b2c-commerce/package
+  signal_note: AppExchange listing (publisher website from the listing's own public JSON); listing count and app
+    names are context, never counted
+  detected_by: sweep-salesforce-appexchange.py
+  detected: '2026-10-21'
+  partner_held:
+    candidate: salsify
+    why: 'market-fit gate: partner''s own tags carry no CRM / sales / outbound / workflow / business-process term'
 templates: []
