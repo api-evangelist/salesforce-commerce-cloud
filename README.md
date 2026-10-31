@@ -1,4 +1,4 @@
-# Salesforce Commerce Cloud (salesforce-commerce-cloud)
+# Salesforce Commerce Cloud
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,94 +66,140 @@
 
 Salesforce Commerce Cloud (formerly Demandware) is an enterprise commerce platform supporting B2C and B2B storefronts, order management, product content, and headless commerce experiences. Commerce Cloud exposes two REST API products: the legacy Open Commerce API (OCAPI) and the modern Salesforce Commerce API (SCAPI), a unified RAML-defined API family built for headless commerce. SCAPI uses OAuth 2.0 via Salesforce Account Manager and groups APIs into Shopper, Data, and Admin tiers.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/apis.yml)
+**Areas:** Commerce · E-Commerce · Headless Commerce · Salesforce · B2C Commerce · B2B Commerce · Demandware
 
-## Scope
+## Salesforce Commerce Cloud on APIs.io
 
-- **Type:** Index
+Everything profiled for Salesforce Commerce Cloud is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/salesforce-commerce-cloud/](https://apis.io/providers/salesforce-commerce-cloud/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (3)
 
-- Commerce
-- E-Commerce
-- Headless Commerce
-- Salesforce
-- B2C Commerce
-- B2B Commerce
-- Demandware
+- [Salesforce Commerce API (SCAPI)](https://apis.io/apis/salesforce-commerce-cloud/scapi/) — Modern REST API family for B2C Commerce Cloud built on a unified RAML specification, organized into Shopper, Data, and Admin APIs for headless commerce.…
+- [Open Commerce API (OCAPI)](https://apis.io/apis/salesforce-commerce-cloud/ocapi/) — Legacy REST API for B2C Commerce Cloud, organized into Shop API, Data API, and Meta API. Authentication uses OAuth 2.0 via Salesforce Account Manager. OCAPI…
+- [Salesforce Commerce Cloud Shopper API](https://apis.io/apis/salesforce-commerce-cloud/salesforce-commerce-cloud-shopper-api/) — The Shopper API from Salesforce Commerce Cloud — 9 operation(s) for shopper.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-05-11
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### GraphQL (1)
 
-### Salesforce Commerce API (SCAPI)
+GraphQL schemas.
 
-Modern REST API family for B2C Commerce Cloud built on a unified RAML specification, organized into Shopper, Data, and Admin APIs for headless commerce. Authentication uses OAuth 2.0 via Salesforce Account Manager (SLAS for shopper flows). Custom APIs allow developers to publish their own endpoints under the SCAPI framework using an OAS 3.0 schema contract.
+- [Moved to /providers/salesforce-commerce-cloud/](https://apis.io/graphqls/salesforce-commerce-cloud/salesforce-commerce-cloud-graphql/)
 
-- **Human URL:** [https://developer.salesforce.com/docs/commerce/commerce-api/overview](https://developer.salesforce.com/docs/commerce/commerce-api/overview)
-- **Base URL:** `https://<short-code>.api.commercecloud.salesforce.com`
+#### Agent skills (60)
 
-#### Tags
+Agent skills built on the API.
 
-- SCAPI
-- Headless Commerce
-- Shopper API
-- Data API
-- Admin API
-- OAuth 2.0
+- [api-client-development](https://apis.io/agent-skills/salesforce-commerce-cloud/api-client-development/)
+- [b2c-am](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-am/)
+- [b2c-bm-users-roles](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-bm-users-roles/)
+- [b2c-business-manager-extensions](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-business-manager-extensions/)
+- [b2c-cap](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-cap/)
+- [b2c-cip](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-cip/)
+- [b2c-code](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-code/)
+- [b2c-config](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-config/)
+- [b2c-content](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-content/)
+- [b2c-controllers](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-controllers/)
+- [b2c-custom-api-development](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-custom-api-development/)
+- [b2c-custom-caches](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-custom-caches/)
+- [b2c-custom-job-steps](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-custom-job-steps/)
+- [b2c-custom-objects](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-custom-objects/)
+- [b2c-debug](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-debug/)
+- [b2c-docs](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-docs/)
+- [b2c-ecdn](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-ecdn/)
+- [b2c-forms](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-forms/)
+- [b2c-hooks](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-hooks/)
+- [b2c-isml](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-isml/)
+- [b2c-job](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-job/)
+- [b2c-localization](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-localization/)
+- [b2c-logging](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-logging/)
+- [b2c-logs](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-logs/)
+- [b2c-metadata](https://apis.io/agent-skills/salesforce-commerce-cloud/b2c-metadata/)
+- …and 35 more published on APIs.io
 
-#### Properties
+#### Agentic access (1)
 
-- [Documentation](https://developer.salesforce.com/docs/commerce/commerce-api/overview)
-- [A P I  References](https://developer.salesforce.com/docs/commerce/commerce-api/references)
-- [A P I  Explorer](https://api-explorer.commercecloud.salesforce.com)
-- [Why  Use  S C A P I](https://developer.salesforce.com/docs/commerce/commerce-api/guide/why-use-scapi.html)
-- [Custom  A P Is](https://developer.salesforce.com/docs/commerce/commerce-api/guide/custom-apis.html)
-- [Postman Collection](collections/salesforce-commerce-cloud.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/salesforce-commerce-cloud.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Which operations an agent can call, which act, and which need a human in the loop.
 
-### Open Commerce API (OCAPI)
+- [Salesforce Commerce Cloud Agentic Access](https://apis.io/agentic-access/salesforce-commerce-cloud/salesforce-commerce-cloud-agentic-access/)
 
-Legacy REST API for B2C Commerce Cloud, organized into Shop API, Data API, and Meta API. Authentication uses OAuth 2.0 via Salesforce Account Manager. OCAPI is deprecated for new projects in favor of SCAPI but remains supported on existing instances.
+#### Collections (2)
 
-- **Human URL:** [https://developer.salesforce.com/docs/commerce/b2c-commerce/references](https://developer.salesforce.com/docs/commerce/b2c-commerce/references)
-- **Base URL:** `https://<instance>.demandware.net/s/-/dw/data/v23_2`
+Postman and Open Collection request collections.
 
-#### Tags
+- [Salesforce Commerce API (SCAPI) - Shopper Subset](https://apis.io/collections/salesforce-commerce-cloud/open-salesforce-commerce-cloud/)
+- [Salesforce Commerce API (SCAPI) - Subset Shopper API](https://apis.io/collections/salesforce-commerce-cloud/open-salesforce-commerce-cloud-shopper-api/)
 
-- OCAPI
-- Shop API
-- Data API
-- Meta API
-- Legacy
+#### Security (3)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://developer.salesforce.com/docs/commerce/b2c-commerce/references)
-- [A P I  Explorer](https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi/apiexplorer.html)
-- [Usage  Guide](https://developer.salesforce.com/docs/commerce/b2c-commerce/references/b2c-commerce-ocapi/apiusage.html)
-- [Postman Collection](collections/salesforce-commerce-cloud.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/salesforce-commerce-cloud.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Salesforce Commerce Cloud Authentication](https://apis.io/security/salesforce-commerce-cloud/salesforce-commerce-cloud-authentication/)
+- [Salesforce Commerce Cloud Domain Security](https://apis.io/security/salesforce-commerce-cloud/salesforce-commerce-cloud-domain-security/)
+- [Salesforce Commerce Cloud Vulnerability Disclosure](https://apis.io/security/salesforce-commerce-cloud/salesforce-commerce-cloud-vulnerability-disclosure/)
 
-## Common Properties
+## Where to find this API
 
-- [LinkedIn](https://www.linkedin.com/company/commercecloud-demandware)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.salesforce.com/products/commerce-cloud/)
 - [Documentation](https://developer.salesforce.com/docs/commerce)
-- [A P I  Documentation](https://developer.salesforce.com/docs/commerce/commerce-api/overview)
-- [A P I  Explorer](https://api-explorer.commercecloud.salesforce.com)
-- [Postman  Collection](https://www.postman.com/salesforce-developers/salesforce-developers/documentation/1qkzgik/salesforce-commerce-b2c)
 - [Pricing](https://www.salesforce.com/products/commerce-cloud/pricing/)
-- [Sign Up](https://developer.salesforce.com/signup)
-- [Trailhead](https://trailhead.salesforce.com/content/learn/modules/b2c-integration-approaches/b2c-explore-ocapi)
-- [GitHub Organization](https://github.com/SalesforceCommerceCloud)
 - [Support](https://help.salesforce.com/s/)
-- [Agent Skill](https://github.com/SalesforceCommerceCloud/b2c-developer-tooling)
+- [Blog](https://developer.salesforce.com/blogs/feed)
+- [GitHub](https://github.com/SalesforceCommerceCloud)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 32.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.3 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 23.7 |
+
+**Agent readiness 20.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/salesforce-commerce-cloud/](https://apis.io/providers/salesforce-commerce-cloud/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Salesforce Commerce Cloud: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/salesforce-commerce-cloud/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
